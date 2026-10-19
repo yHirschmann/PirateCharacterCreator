@@ -1,0 +1,371 @@
+1. Vous avez enfin une journée complètement libre. Que faites-vous ?
+A. Je me lance dans un défi que je ne suis pas certain de réussir.
+→ +2 Bretteur, +1 Boucanier
+B. Je pars découvrir un endroit où je ne suis jamais allé.
+→ +2 Explorateur, +1 Mystique
+C. Je cherche une activité qui pourrait me permettre de gagner quelque chose.
+→ +2 Roublard, +1 Chasseur de monstre
+D. Je me plonge dans quelque chose d'étrange que je cherche à comprendre depuis longtemps.
+→ +2 Mystique, +1 Roublard
+E. Je travaille sur quelque chose de concret et utile.
+→ +2 Boucanier, +1 Bretteur
+F. Je cherche un défi particulièrement difficile à relever.
+→ +2 Chasseur de monstre, +1 Lame de sang-bleu
+G. Je profite de mon temps pour perfectionner une compétence que je possède déjà.
+→ +2 Lame de sang-bleu, +1 Explorateur
+
+2. Vous devez résoudre un problème particulièrement difficile. Quelle est votre approche ?
+A. Je cherche la solution la plus directe.
+→ +2 Boucanier, +1 Explorateur
+B. Je cherche une méthode à laquelle personne n'aurait pensé.
+→ +2 Roublard, +1 Mystique
+C. J'analyse toutes les informations disponibles avant de commencer.
+→ +2 Explorateur, +1 Lame de sang-bleu
+D. Je cherche à comprendre ce qui se cache derrière le problème.
+→ +2 Mystique, +1 Roublard
+E. Je demande conseil à quelqu'un qui possède davantage d'expérience.
+→ +2 Lame de sang-bleu, +1 Boucanier
+F. Je tente quelque chose et j'adapte ma stratégie en fonction du résultat.
+→ +2 Bretteur, +1 Chasseur de monstre
+G. Je cherche d'abord à identifier ce qui pourrait être dangereux.
+→ +2 Chasseur de monstre, +1 Bretteur
+
+3. Vous rencontrez quelqu'un qui possède une opinion totalement opposée à la vôtre.
+A. Je cherche à comprendre pourquoi il pense ainsi.
+→ +2 Explorateur, +1 Mystique
+B. Je défends fermement ma position.
+→ +2 Bretteur, +1 Lame de sang-bleu
+C. Je cherche un moyen de retourner ses arguments contre lui.
+→ +2 Roublard, +1 Bretteur
+D. Je préfère observer la situation avant de prendre position.
+→ +2 Mystique, +1 Explorateur
+E. Je cherche ce que nous pouvons concrètement faire malgré nos différences.
+→ +2 Boucanier, +1 Roublard
+F. Je lui demande de démontrer que son point de vue fonctionne réellement.
+→ +2 Chasseur de monstre, +1 Boucanier
+
+G. Je présente mes arguments avec calme et assurance.
+→ +2 Lame de sang-bleu, +1 Chasseur de monstre
+4. Quel trait admirez-vous le plus chez quelqu'un ?
+A. Son courage.
+→ +2 Bretteur, +1 Chasseur de monstre
+B. Sa capacité à se débrouiller seul.
+→ +2 Boucanier, +1 Roublard
+C. Sa curiosité.
+→ +2 Explorateur, +1 Mystique
+D. Sa capacité à comprendre ce qui échappe aux autres.
+→ +2 Mystique, +1 Explorateur
+E. Son intelligence et sa ruse.
+→ +2 Roublard, +1 Lame de sang-bleu
+F. Sa détermination lorsqu'il poursuit un objectif.
+→ +2 Chasseur de monstre, +1 Bretteur
+
+G. Sa maîtrise et son élégance.
+→ +2 Lame de sang-bleu, +1 Boucanier
+5. Vous découvrez que quelqu'un vous a volontairement menti.
+A. Je cherche immédiatement pourquoi.
+→ +2 Mystique, +1 Explorateur
+B. Je lui demande directement des explications.
+→ +2 Bretteur, +1 Lame de sang-bleu
+C. Je cherche à savoir ce qu'il essaie réellement de cacher.
+→ +2 Roublard, +1 Mystique
+D. Je prends mes distances et continue ma route.
+→ +2 Boucanier, +1 Roublard
+E. Je veux comprendre toute l'histoire avant de juger.
+→ +2 Explorateur, +1 Chasseur de monstre
+F. Je n'oublie pas facilement ce genre de trahison.
+→ +2 Chasseur de monstre, +1 Bretteur
+G. Je lui laisse une chance de s'expliquer correctement.
+→ +2 Lame de sang-bleu, +1 Boucanier
+
+6. On vous propose de participer à quelque chose de très risqué.
+A. J'accepte si le défi en vaut la peine.
+→ +2 Bretteur, +1 Roublard
+B. J'accepte si je sais que je peux m'en sortir.
+→ +2 Boucanier, +1 Chasseur de monstre
+C. J'accepte surtout parce que je veux voir ce qui va se passer.
+→ +2 Explorateur, +1 Bretteur
+D. Je veux savoir si cette chose présente un danger particulier.
+→ +2 Chasseur de monstre, +1 Boucanier
+E. Je cherche d'abord à comprendre les conséquences possibles.
+→ +2 Mystique, +1 Lame de sang-bleu
+F. Je cherche un moyen de rendre l'entreprise moins risquée.
+→ +2 Roublard, +1 Explorateur
+G. Je n'accepte que si les conditions sont clairement définies.
+→ +2 Lame de sang-bleu, +1 Mystique
+
+7. Vous trouvez un objet ancien dont personne ne connaît l'origine.
+A. Je cherche à savoir s'il pourrait être dangereux.
+→ +2 Chasseur de monstre, +1 Mystique
+B. Je cherche son origine.
+→ +2 Explorateur, +1 Lame de sang-bleu
+C. Je cherche comment il fonctionne.
+→ +2 Mystique, +1 Explorateur
+D. Je regarde immédiatement s'il peut avoir une quelconque valeur.
+→ +2 Roublard, +1 Boucanier
+E. Je cherche quelqu'un capable de l'identifier.
+→ +2 Lame de sang-bleu, +1 Chasseur de monstre
+F. Je teste prudemment ce qu'il est capable de faire.
+→ +2 Boucanier, +1 Bretteur
+
+G. Je l'emporte avec moi et je verrai bien ce qu'il advient.
+→ +2 Bretteur, +1 Roublard
+8. Quelle situation vous met le plus mal à l'aise ?
+A. Être incapable de me défendre.
+→ +2 Bretteur, +1 Boucanier
+B. Être complètement dépendant des autres.
+→ +2 Boucanier, +1 Lame de sang-bleu
+C. Ne jamais savoir ce qui se trouve derrière une porte fermée.
+→ +2 Explorateur, +1 Roublard
+D. Sentir qu'une chose inexplicable m'entoure.
+→ +2 Mystique, +1 Chasseur de monstre
+E. Ne pas pouvoir contrôler une situation.
+→ +2 Lame de sang-bleu, +1 Mystique
+F. Savoir qu'une menace existe sans pouvoir l'affronter.
+→ +2 Chasseur de monstre, +1 Bretteur
+G. Être dans une situation où toutes les règles sont contre moi.
+→ +2 Roublard, +1 Explorateur
+
+9. Quel type de réussite vous rendrait le plus fier ?
+A. Être reconnu comme le meilleur.
+→ +2 Lame de sang-bleu, +1 Bretteur
+B. Avoir réussi quelque chose que personne ne pensait possible.
+→ +2 Chasseur de monstre, +1 Boucanier
+C. Avoir découvert quelque chose d'inconnu.
+→ +2 Explorateur, +1 Mystique
+D. Avoir compris quelque chose d'incompréhensible.
+→ +2 Mystique, +1 Explorateur
+E. Avoir réussi grâce à mon intelligence plutôt qu'à ma force.
+→ +2 Roublard, +1 Lame de sang-bleu
+F. Être capable de survivre là où personne d'autre n'aurait pu le faire.
+→ +2 Boucanier, +1 Chasseur de monstre
+G. Avoir vaincu un adversaire particulièrement redoutable.
+→ +2 Bretteur, +1 Roublard
+
+10. Vous avez échoué à quelque chose d'important.
+A. Je recommence immédiatement.
+→ +2 Bretteur, +1 Chasseur de monstre
+B. Je cherche ce que j'ai mal fait.
+→ +2 Lame de sang-bleu, +1 Explorateur
+C. Je cherche une autre manière d'y parvenir.
+→ +2 Roublard, +1 Boucanier
+D. Je me demande ce que cet échec peut m'apprendre.
+→ +2 Mystique, +1 Lame de sang-bleu
+E. Je change complètement d'approche.
+→ +2 Explorateur, +1 Roublard
+F. Je me demande si l'objectif valait réellement tous ces efforts.
+→ +2 Boucanier, +1 Mystique
+G. Cela me donne encore plus envie de réussir.
+→ +2 Chasseur de monstre, +1 Bretteur
+
+11. Vous devez choisir un métier.
+A. Celui où l'on doit constamment relever des défis.
+→ +2 Chasseur de monstre, +1 Bretteur
+B. Celui qui permet de travailler partout et de s'adapter à toutes les situations.
+→ +2 Boucanier, +1 Explorateur
+C. Celui qui permet de découvrir et étudier des choses inconnues.
+→ +2 Explorateur, +1 Lame de sang-bleu
+D. Celui qui permet d'étudier des phénomènes mystérieux.
+→ +2 Mystique, +1 Chasseur de monstre
+E. Celui où l'on peut être créatif et contourner les règles.
+→ +2 Roublard, +1 Boucanier
+F. Celui où l'on devient un véritable expert dans son domaine.
+→ +2 Lame de sang-bleu, +1 Bretteur
+G. Celui où l'on peut constamment se mesurer aux autres.
+→ +2 Bretteur, +1 Roublard
+
+12. Vous êtes responsable d'un groupe.
+A. Je donne des objectifs précis.
+→ +2 Lame de sang-bleu, +1 Boucanier
+B. Je laisse chacun trouver sa propre manière de réussir.
+→ +2 Boucanier, +1 Roublard
+C. Je pousse le groupe à tenter de nouvelles choses.
+→ +2 Explorateur, +1 Bretteur
+D. Je cherche à comprendre les motivations de chacun.
+→ +2 Mystique, +1 Explorateur
+E. Je garde toujours plusieurs plans de secours.
+→ +2 Roublard, +1 Lame de sang-bleu
+F. Je m'assure que personne ne sous-estime les dangers.
+→ +2 Chasseur de monstre, +1 Mystique
+G. Je montre l'exemple en prenant les risques moi-même.
+→ +2 Bretteur, +1 Chasseur de monstre
+13. Quelle phrase vous correspond le mieux ?
+A. « Il faut parfois prendre des risques pour avancer. »
+→ +2 Bretteur, +1 Explorateur
+B. « Tant que je peux me débrouiller, je n'ai besoin de personne. »
+→ +2 Boucanier, +1 Bretteur
+C. « Il y a toujours quelque chose que nous ignorons encore. »
+→ +2 Explorateur, +1 Mystique
+D. « Le monde est probablement plus étrange qu'il n'y paraît. »
+→ +2 Mystique, +1 Chasseur de monstre
+E. « Les règles sont surtout là pour ceux qui ne savent pas les contourner. »
+→ +2 Roublard, +1 Boucanier
+F. « Certaines menaces doivent être éliminées avant qu'elles ne deviennent un problème. »
+→ +2 Chasseur de monstre, +1 Lame de sang-bleu
+G. « Peu importe le domaine, la maîtrise fait toute la différence. »
+→ +2 Lame de sang-bleu, +1 Roublard
+14. Vous devez passer une épreuve.
+A. Je veux savoir quel est le meilleur résultat possible.
+→ +2 Lame de sang-bleu, +1 Explorateur
+B. Je veux savoir si je peux la réussir sans préparation.
+→ +2 Boucanier, +1 Bretteur
+C. Je veux découvrir ce qui se trouve après l'épreuve.
+→ +2 Explorateur, +1 Chasseur de monstre
+D. Je veux comprendre pourquoi cette épreuve existe.
+→ +2 Mystique, +1 Lame de sang-bleu
+E. Je cherche une manière de ne pas avoir à la passer.
+→ +2 Roublard, +1 Mystique
+F. Je veux être certain qu'elle ne dissimule pas un piège.
+→ +2 Chasseur de monstre, +1 Boucanier
+G. Je veux simplement la réussir, peu importe la difficulté.
+→ +2 Bretteur, +1 Roublard
+15. Une personne que vous appréciez est en difficulté.
+A. Je vais directement l'aider, même si c'est dangereux.
+→ +2 Chasseur de monstre, +1 Bretteur
+B. Je cherche la manière la plus pratique de l'aider.
+→ +2 Boucanier, +1 Lame de sang-bleu
+C. Je cherche à comprendre précisément ce qui lui arrive.
+→ +2 Explorateur, +1 Mystique
+D. Je me demande s'il n'existe pas une cause cachée derrière son problème.
+→ +2 Mystique, +1 Explorateur
+E. Je cherche une solution que personne n'aurait envisagée.
+→ +2 Roublard, +1 Chasseur de monstre
+F. Je prends le temps d'élaborer un plan efficace.
+→ +2 Lame de sang-bleu, +1 Boucanier
+G. Je me place entre elle et le danger.
+→ +2 Bretteur, +1 Roublard
+16. Vous pouvez obtenir une seule capacité extraordinaire.
+A. Une maîtrise parfaite d'une compétence.
+→ +2 Lame de sang-bleu, +1 Bretteur
+B. La capacité de survivre dans presque n'importe quel environnement.
+→ +2 Boucanier, +1 Chasseur de monstre
+C. La capacité de découvrir des lieux inconnus.
+→ +2 Explorateur, +1 Boucanier
+D. La capacité de percevoir ce qui échappe aux sens ordinaires.
+→ +2 Mystique, +1 Explorateur
+E. La capacité de toujours trouver une solution inattendue.
+→ +2 Roublard, +1 Mystique
+F. La capacité de combattre des créatures terrifiantes.
+→ +2 Chasseur de monstre, +1 Lame de sang-bleu
+G. La capacité de vaincre n'importe quel adversaire à armes égales.
+→ +2 Bretteur, +1 Roublard
+17. Vous avez accès à une bibliothèque contenant tous les livres existants.
+A. Je cherche les ouvrages les plus rares.
+→ +2 Explorateur, +1 Mystique
+B. Je cherche les textes qui parlent de phénomènes inexplicables.
+→ +2 Mystique, +1 Chasseur de monstre
+C. Je cherche les ouvrages permettant d'améliorer mes compétences.
+→ +2 Lame de sang-bleu, +1 Bretteur
+D. Je cherche les informations qui pourraient me donner un avantage sur les autres.
+→ +2 Roublard, +1 Lame de sang-bleu
+E. Je cherche les livres expliquant comment survivre dans des conditions extrêmes.
+→ +2 Boucanier, +1 Explorateur
+F. Je cherche les récits concernant les créatures les plus dangereuses.
+→ +2 Chasseur de monstre, +1 Boucanier
+G. Je cherche les ouvrages racontant les exploits des grands combattants.
+→ +2 Bretteur, +1 Roublard
+18. Une règle vous semble complètement absurde.
+A. Je cherche pourquoi elle existe.
+→ +2 Mystique, +1 Lame de sang-bleu
+B. Je la respecte tant qu'elle est nécessaire.
+→ +2 Lame de sang-bleu, +1 Boucanier
+C. Je cherche une exception qui me permet de l'éviter.
+→ +2 Roublard, +1 Explorateur
+D. Je teste ce qui arrive si je l'enfreins.
+→ +2 Bretteur, +1 Roublard
+E. Je cherche à savoir comment elle fonctionne réellement.
+→ +2 Explorateur, +1 Mystique
+F. Je me demande si elle protège contre un danger réel.
+→ +2 Chasseur de monstre, +1 Bretteur
+G. Si elle complique inutilement les choses, je préfère faire autrement.
+→ +2 Boucanier, +1 Chasseur de monstre
+19. Quel genre de personne êtes-vous dans un groupe ?
+A. Celui qui relève les défis.
+→ +2 Bretteur, +1 Lame de sang-bleu
+B. Celui qui sait quoi faire quand tout tourne mal.
+→ +2 Boucanier, +1 Roublard
+C. Celui qui pose constamment des questions.
+→ +2 Explorateur, +1 Boucanier
+D. Celui qui remarque les choses étranges.
+→ +2 Mystique, +1 Explorateur
+E. Celui qui trouve des solutions auxquelles personne n'avait pensé.
+→ +2 Roublard, +1 Mystique
+F. Celui qui reste concentré sur la menace principale.
+→ +2 Chasseur de monstre, +1 Bretteur
+G. Celui qui cherche à organiser les choses correctement.
+→ +2 Lame de sang-bleu, +1 Chasseur de monstre
+20. Vous pouvez obtenir une réponse à une seule question.
+A. « Comment devenir le meilleur dans mon domaine ? »
+→ +2 Lame de sang-bleu, +1 Bretteur
+B. « Comment survivre à n'importe quelle situation ? »
+→ +2 Boucanier, +1 Explorateur
+C. « Qu'est-ce qui existe au-delà de ce que nous connaissons ? »
+→ +2 Explorateur, +1 Mystique
+D. « Qu'est-ce qui se cache derrière les lois de notre monde ? »
+→ +2 Mystique, +1 Chasseur de monstre
+E. « Comment obtenir ce que je veux ? »
+→ +2 Roublard, +1 Boucanier
+F. « Quelle est la plus grande menace qui existe ? »
+→ +2 Chasseur de monstre, +1 Lame de sang-bleu
+G. « Qui est réellement capable de me vaincre ? »
+→ +2 Bretteur, +1 Roublard
+21. Vous avez la possibilité de repartir de zéro dans votre vie.
+A. Je pars à la recherche d'une nouvelle expérience.
+→ +2 Explorateur, +1 Bretteur
+B. Je cherche un endroit où je pourrais apprendre à vivre par moi-même.
+→ +2 Boucanier, +1 Explorateur
+C. Je cherche un nouveau défi qui me permettrait de prouver ma valeur.
+→ +2 Bretteur, +1 Chasseur de monstre
+D. Je cherche à comprendre quelque chose qui m'a toujours échappé.
+→ +2 Mystique, +1 Roublard
+E. Je profite de l'occasion pour changer complètement les règles du jeu.
+→ +2 Roublard, +1 Boucanier
+F. Je pars accomplir quelque chose que personne n'a encore réussi.
+→ +2 Chasseur de monstre, +1 Mystique
+G. Je cherche à construire une nouvelle vie fondée sur l'excellence.
+→ +2 Lame de sang-bleu, +1 Explorateur
+22. Vous apprenez qu'un danger inconnu approche.
+A. Je veux savoir si je suis capable de l'affronter.
+→ +2 Bretteur, +1 Chasseur de monstre
+B. Je prépare tout ce qui peut me permettre de survivre.
+→ +2 Boucanier, +1 Lame de sang-bleu
+C. Je cherche à comprendre ce qui arrive.
+→ +2 Explorateur, +1 Mystique
+D. Je cherche à déterminer si ce danger possède une nature surnaturelle.
+→ +2 Mystique, +1 Chasseur de monstre
+E. Je cherche un moyen de retourner la situation à mon avantage.
+→ +2 Roublard, +1 Bretteur
+F. Je cherche à identifier précisément la menace pour pouvoir l'éliminer.
+→ +2 Chasseur de monstre, +1 Boucanier
+G. Je rassemble les informations et prépare méthodiquement ma réponse.
+→ +2 Lame de sang-bleu, +1 Explorateur
+23. Que préféreriez-vous posséder ?
+A. Une arme légendaire.
+→ +2 Bretteur, +1 Lame de sang-bleu
+B. Un équipement capable de me permettre de survivre partout.
+→ +2 Boucanier, +1 Roublard
+C. Une carte indiquant des endroits jamais découverts.
+→ +2 Explorateur, +1 Boucanier
+D. Un objet permettant d'entrer en contact avec l'inexplicable.
+→ +2 Mystique, +1 Explorateur
+E. Un outil permettant d'ouvrir presque n'importe quelle serrure.
+→ +2 Roublard, +1 Mystique
+F. Une arme capable de tuer une créature légendaire.
+→ +2 Chasseur de monstre, +1 Bretteur
+G. Un objet appartenant autrefois à un grand maître.
+→ +2 Lame de sang-bleu, +1 Chasseur de monstre
+24. Quelle phrase pourrait devenir votre devise ?
+A. « Personne ne peut me surpasser sans l'avoir mérité. »
+→ +2 Bretteur, +1 Lame de sang-bleu
+B. « Tant que je peux avancer, rien n'est perdu. »
+→ +2 Boucanier, +1 Explorateur
+C. « Il reste toujours quelque chose à découvrir. »
+→ +2 Explorateur, +1 Roublard
+D. « Ce que nous ne comprenons pas mérite d'être étudié. »
+→ +2 Mystique, +1 Explorateur
+E. « Il existe toujours une autre façon de faire. »
+→ +2 Roublard, +1 Boucanier
+F. « Certaines choses doivent être détruites avant qu'elles ne nous détruisent. »
+→ +2 Chasseur de monstre, +1 Bretteur
+G. « La maîtrise transforme le talent en excellence. »
+→ +2 Lame de sang-bleu, +1 Chasseur de monstre

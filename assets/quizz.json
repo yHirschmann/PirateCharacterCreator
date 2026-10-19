@@ -1,0 +1,986 @@
+[
+  {
+    "id": 1,
+    "question": "Vous avez enfin une journée complètement libre. Que faites-vous ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je me lance dans un défi que je ne suis pas certain de réussir.",
+        "scores": { "Bretteur": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je pars découvrir un endroit où je ne suis jamais allé.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche une activité qui pourrait me permettre de gagner quelque chose.",
+        "scores": { "Roublard": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je me plonge dans quelque chose d'étrange que je cherche à comprendre depuis longtemps.",
+        "scores": { "Mystique": 2, "Roublard": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je travaille sur quelque chose de concret et utile.",
+        "scores": { "Boucanier": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je cherche un défi particulièrement difficile à relever.",
+        "scores": { "Chasseur de monstre": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je profite de mon temps pour perfectionner une compétence que je possède déjà.",
+        "scores": { "Lame de sang-bleu": 2, "Explorateur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Vous devez résoudre un problème particulièrement difficile. Quelle est votre approche ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche la solution la plus directe.",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche une méthode à laquelle personne n'aurait pensé.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "C",
+        "label": "J'analyse toutes les informations disponibles avant de commencer.",
+        "scores": { "Explorateur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je cherche à comprendre ce qui se cache derrière le problème.",
+        "scores": { "Mystique": 2, "Roublard": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je demande conseil à quelqu'un qui possède davantage d'expérience.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je tente quelque chose et j'adapte ma stratégie en fonction du résultat.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je cherche d'abord à identifier ce qui pourrait être dangereux.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Vous rencontrez quelqu'un qui possède une opinion totalement opposée à la vôtre.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche à comprendre pourquoi il pense ainsi.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je défends fermement ma position.",
+        "scores": { "Bretteur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche un moyen de retourner ses arguments contre lui.",
+        "scores": { "Roublard": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je préfère observer la situation avant de prendre position.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche ce que nous pouvons concrètement faire malgré nos différences.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je lui demande de démontrer que son point de vue fonctionne réellement.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je présente mes arguments avec calme et assurance.",
+        "scores": { "Lame de sang-bleu": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Quel trait admirez-vous le plus chez quelqu'un ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Son courage.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Sa capacité à se débrouiller seul.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Sa curiosité.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Sa capacité à comprendre ce qui échappe aux autres.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Son intelligence et sa ruse.",
+        "scores": { "Roublard": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Sa détermination lorsqu'il poursuit un objectif.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Sa maîtrise et son élégance.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Vous découvrez que quelqu'un vous a volontairement menti.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche immédiatement pourquoi.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je lui demande directement des explications.",
+        "scores": { "Bretteur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche à savoir ce qu'il essaie réellement de cacher.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je prends mes distances et continue ma route.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je veux comprendre toute l'histoire avant de juger.",
+        "scores": { "Explorateur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je n'oublie pas facilement ce genre de trahison.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je lui laisse une chance de s'expliquer correctement.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "On vous propose de participer à quelque chose de très risqué.",
+    "options": [
+      {
+        "code": "A",
+        "label": "J'accepte si le défi en vaut la peine.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      },
+      {
+        "code": "B",
+        "label": "J'accepte si je sais que je peux m'en sortir.",
+        "scores": { "Boucanier": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "C",
+        "label": "J'accepte surtout parce que je veux voir ce qui va se passer.",
+        "scores": { "Explorateur": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je veux savoir si cette chose présente un danger particulier.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche d'abord à comprendre les conséquences possibles.",
+        "scores": { "Mystique": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je cherche un moyen de rendre l'entreprise moins risquée.",
+        "scores": { "Roublard": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je n'accepte que si les conditions sont clairement définies.",
+        "scores": { "Lame de sang-bleu": 2, "Mystique": 1 }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Vous trouvez un objet ancien dont personne ne connaît l'origine.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche à savoir s'il pourrait être dangereux.",
+        "scores": { "Chasseur de monstre": 2, "Mystique": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche son origine.",
+        "scores": { "Explorateur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche comment il fonctionne.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je regarde immédiatement s'il peut avoir une quelconque valeur.",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche quelqu'un capable de l'identifier.",
+        "scores": { "Lame de sang-bleu": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je teste prudemment ce qu'il est capable de faire.",
+        "scores": { "Boucanier": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je l'emporte avec moi et je verrai bien ce qu'il advient.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Quelle situation vous met le plus mal à l'aise ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Être incapable de me défendre.",
+        "scores": { "Bretteur": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Être complètement dépendant des autres.",
+        "scores": { "Boucanier": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Ne jamais savoir ce qui se trouve derrière une porte fermée.",
+        "scores": { "Explorateur": 2, "Roublard": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Sentir qu'une chose inexplicable m'entoure.",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Ne pas pouvoir contrôler une situation.",
+        "scores": { "Lame de sang-bleu": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Savoir qu'une menace existe sans pouvoir l'affronter.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Être dans une situation où toutes les règles sont contre moi.",
+        "scores": { "Roublard": 2, "Explorateur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Quel type de réussite vous rendrait le plus fier ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Être reconnu comme le meilleur.",
+        "scores": { "Lame de sang-bleu": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Avoir réussi quelque chose que personne ne pensait possible.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Avoir découvert quelque chose d'inconnu.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Avoir compris quelque chose d'incompréhensible.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Avoir réussi grâce à mon intelligence plutôt qu'à ma force.",
+        "scores": { "Roublard": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Être capable de survivre là où personne d'autre n'aurait pu le faire.",
+        "scores": { "Boucanier": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Avoir vaincu un adversaire particulièrement redoutable.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Vous avez échoué à quelque chose d'important.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je recommence immédiatement.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche ce que j'ai mal fait.",
+        "scores": { "Lame de sang-bleu": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche une autre manière d'y parvenir.",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je me demande ce que cet échec peut m'apprendre.",
+        "scores": { "Mystique": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je change complètement d'approche.",
+        "scores": { "Explorateur": 2, "Roublard": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je me demande si l'objectif valait réellement tous ces efforts.",
+        "scores": { "Boucanier": 2, "Mystique": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Cela me donne encore plus envie de réussir.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Vous devez choisir un métier.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Celui où l'on doit constamment relever des défis.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Celui qui permet de travailler partout et de s'adapter à toutes les situations.",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Celui qui permet de découvrir et étudier des choses inconnues.",
+        "scores": { "Explorateur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Celui qui permet d'étudier des phénomènes mystérieux.",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Celui où l'on peut être créatif et contourner les règles.",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Celui où l'on devient un véritable expert dans son domaine.",
+        "scores": { "Lame de sang-bleu": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Celui où l'on peut constamment se mesurer aux autres.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Vous êtes responsable d'un groupe.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je donne des objectifs précis.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je laisse chacun trouver sa propre manière de réussir.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je pousse le groupe à tenter de nouvelles choses.",
+        "scores": { "Explorateur": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je cherche à comprendre les motivations de chacun.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je garde toujours plusieurs plans de secours.",
+        "scores": { "Roublard": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je m'assure que personne ne sous-estime les dangers.",
+        "scores": { "Chasseur de monstre": 2, "Mystique": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je montre l'exemple en prenant les risques moi-même.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Quelle phrase vous correspond le mieux ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "« Il faut parfois prendre des risques pour avancer. »",
+        "scores": { "Bretteur": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "« Tant que je peux me débrouiller, je n'ai besoin de personne. »",
+        "scores": { "Boucanier": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "« Il y a toujours quelque chose que nous ignorons encore. »",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "« Le monde est probablement plus étrange qu'il n'y paraît. »",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "E",
+        "label": "« Les règles sont surtout là pour ceux qui ne savent pas les contourner. »",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "« Certaines menaces doivent être éliminées avant qu'elles ne deviennent un problème. »",
+        "scores": { "Chasseur de monstre": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "G",
+        "label": "« Peu importe le domaine, la maîtrise fait toute la différence. »",
+        "scores": { "Lame de sang-bleu": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Vous devez passer une épreuve.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je veux savoir quel est le meilleur résultat possible.",
+        "scores": { "Lame de sang-bleu": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je veux savoir si je peux la réussir sans préparation.",
+        "scores": { "Boucanier": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je veux découvrir ce qui se trouve après l'épreuve.",
+        "scores": { "Explorateur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je veux comprendre pourquoi cette épreuve existe.",
+        "scores": { "Mystique": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche une manière de ne pas avoir à la passer.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je veux être certain qu'elle ne dissimule pas un piège.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je veux simplement la réussir, peu importe la difficulté.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Une personne que vous appréciez est en difficulté.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je vais directement l'aider, même si c'est dangereux.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche la manière la plus pratique de l'aider.",
+        "scores": { "Boucanier": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche à comprendre précisément ce qui lui arrive.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je me demande s'il n'existe pas une cause cachée derrière son problème.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche une solution que personne n'aurait envisagée.",
+        "scores": { "Roublard": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je prends le temps d'élaborer un plan efficace.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je me place entre elle et le danger.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Vous pouvez obtenir une seule capacité extraordinaire.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Une maîtrise parfaite d'une compétence.",
+        "scores": { "Lame de sang-bleu": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "La capacité de survivre dans presque n'importe quel environnement.",
+        "scores": { "Boucanier": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "C",
+        "label": "La capacité de découvrir des lieux inconnus.",
+        "scores": { "Explorateur": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "D",
+        "label": "La capacité de percevoir ce qui échappe aux sens ordinaires.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "La capacité de toujours trouver une solution inattendue.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "La capacité de combattre des créatures terrifiantes.",
+        "scores": { "Chasseur de monstre": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "G",
+        "label": "La capacité de vaincre n'importe quel adversaire à armes égales.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Vous avez accès à une bibliothèque contenant tous les livres existants.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche les ouvrages les plus rares.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche les textes qui parlent de phénomènes inexplicables.",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche les ouvrages permettant d'améliorer mes compétences.",
+        "scores": { "Lame de sang-bleu": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je cherche les informations qui pourraient me donner un avantage sur les autres.",
+        "scores": { "Roublard": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche les livres expliquant comment survivre dans des conditions extrêmes.",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je cherche les récits concernant les créatures les plus dangereuses.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je cherche les ouvrages racontant les exploits des grands combattants.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Une règle vous semble complètement absurde.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je cherche pourquoi elle existe.",
+        "scores": { "Mystique": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je la respecte tant qu'elle est nécessaire.",
+        "scores": { "Lame de sang-bleu": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche une exception qui me permet de l'éviter.",
+        "scores": { "Roublard": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je teste ce qui arrive si je l'enfreins.",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche à savoir comment elle fonctionne réellement.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je me demande si elle protège contre un danger réel.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Si elle complique inutilement les choses, je préfère faire autrement.",
+        "scores": { "Boucanier": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Quel genre de personne êtes-vous dans un groupe ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Celui qui relève les défis.",
+        "scores": { "Bretteur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Celui qui sait quoi faire quand tout tourne mal.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Celui qui pose constamment des questions.",
+        "scores": { "Explorateur": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Celui qui remarque les choses étranges.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Celui qui trouve des solutions auxquelles personne n'avait pensé.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Celui qui reste concentré sur la menace principale.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Celui qui cherche à organiser les choses correctement.",
+        "scores": { "Lame de sang-bleu": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Vous pouvez obtenir une réponse à une seule question.",
+    "options": [
+      {
+        "code": "A",
+        "label": "« Comment devenir le meilleur dans mon domaine ? »",
+        "scores": { "Lame de sang-bleu": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "« Comment survivre à n'importe quelle situation ? »",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "« Qu'est-ce qui existe au-delà de ce que nous connaissons ? »",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "« Qu'est-ce qui se cache derrière les lois de notre monde ? »",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "E",
+        "label": "« Comment obtenir ce que je veux ? »",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "« Quelle est la plus grande menace qui existe ? »",
+        "scores": { "Chasseur de monstre": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "G",
+        "label": "« Qui est réellement capable de me vaincre ? »",
+        "scores": { "Bretteur": 2, "Roublard": 1 }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Vous avez la possibilité de repartir de zéro dans votre vie.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je pars à la recherche d'une nouvelle expérience.",
+        "scores": { "Explorateur": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je cherche un endroit où je pourrais apprendre à vivre par moi-même.",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche un nouveau défi qui me permettrait de prouver ma valeur.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je cherche à comprendre quelque chose qui m'a toujours échappé.",
+        "scores": { "Mystique": 2, "Roublard": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je profite de l'occasion pour changer complètement les règles du jeu.",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je pars accomplir quelque chose que personne n'a encore réussi.",
+        "scores": { "Chasseur de monstre": 2, "Mystique": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je cherche à construire une nouvelle vie fondée sur l'excellence.",
+        "scores": { "Lame de sang-bleu": 2, "Explorateur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Vous apprenez qu'un danger inconnu approche.",
+    "options": [
+      {
+        "code": "A",
+        "label": "Je veux savoir si je suis capable de l'affronter.",
+        "scores": { "Bretteur": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Je prépare tout ce qui peut me permettre de survivre.",
+        "scores": { "Boucanier": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Je cherche à comprendre ce qui arrive.",
+        "scores": { "Explorateur": 2, "Mystique": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Je cherche à déterminer si ce danger possède une nature surnaturelle.",
+        "scores": { "Mystique": 2, "Chasseur de monstre": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Je cherche un moyen de retourner la situation à mon avantage.",
+        "scores": { "Roublard": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Je cherche à identifier précisément la menace pour pouvoir l'éliminer.",
+        "scores": { "Chasseur de monstre": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Je rassemble les informations et prépare méthodiquement ma réponse.",
+        "scores": { "Lame de sang-bleu": 2, "Explorateur": 1 }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Que préféreriez-vous posséder ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "Une arme légendaire.",
+        "scores": { "Bretteur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "B",
+        "label": "Un équipement capable de me permettre de survivre partout.",
+        "scores": { "Boucanier": 2, "Roublard": 1 }
+      },
+      {
+        "code": "C",
+        "label": "Une carte indiquant des endroits jamais découverts.",
+        "scores": { "Explorateur": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "D",
+        "label": "Un objet permettant d'entrer en contact avec l'inexplicable.",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "Un outil permettant d'ouvrir presque n'importe quelle serrure.",
+        "scores": { "Roublard": 2, "Mystique": 1 }
+      },
+      {
+        "code": "F",
+        "label": "Une arme capable de tuer une créature légendaire.",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "Un objet appartenant autrefois à un grand maître.",
+        "scores": { "Lame de sang-bleu": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Quelle phrase pourrait devenir votre devise ?",
+    "options": [
+      {
+        "code": "A",
+        "label": "« Personne ne peut me surpasser sans l'avoir mérité. »",
+        "scores": { "Bretteur": 2, "Lame de sang-bleu": 1 }
+      },
+      {
+        "code": "B",
+        "label": "« Tant que je peux avancer, rien n'est perdu. »",
+        "scores": { "Boucanier": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "C",
+        "label": "« Il reste toujours quelque chose à découvrir. »",
+        "scores": { "Explorateur": 2, "Roublard": 1 }
+      },
+      {
+        "code": "D",
+        "label": "« Ce que nous ne comprenons pas mérite d'être étudié. »",
+        "scores": { "Mystique": 2, "Explorateur": 1 }
+      },
+      {
+        "code": "E",
+        "label": "« Il existe toujours une autre façon de faire. »",
+        "scores": { "Roublard": 2, "Boucanier": 1 }
+      },
+      {
+        "code": "F",
+        "label": "« Certaines choses doivent être détruites avant qu'elles ne nous détruisent. »",
+        "scores": { "Chasseur de monstre": 2, "Bretteur": 1 }
+      },
+      {
+        "code": "G",
+        "label": "« La maîtrise transforme le talent en excellence. »",
+        "scores": { "Lame de sang-bleu": 2, "Chasseur de monstre": 1 }
+      }
+    ]
+  }
+]

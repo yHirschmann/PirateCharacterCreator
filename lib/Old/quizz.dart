@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/Old/ResultPage.dart';
 import 'model.dart';
 import 'question_widget.dart';
+import 'dart:convert';
+import 'dart:io';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -33,6 +36,19 @@ class _QuizPageState extends State<QuizPage> {
     ),
   ];
 
+  Future<void> main() async {
+    final file = File('chemin/vers/fichier.json');
+
+    // 1. Lire le contenu sous forme de chaîne de caractères
+    final stringContent = await file.readAsString();
+
+    // 2. Transformer la chaîne en objet Dart (Map ou List)
+    final dynamic data = jsonDecode(stringContent);
+
+    print(data);
+    // Exemple d'accès si c'est un Map : print(data['nom']);
+  }
+  
   void _selectOption(Option option) {
     // Mise à jour des scores
     option.profileScores.forEach((profile, points) {
