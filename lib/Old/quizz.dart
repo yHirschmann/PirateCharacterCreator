@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/Old/ResultPage.dart';
+// import 'package:test_app/Old/ResultPage.dart';
 import 'model.dart';
 import 'question_widget.dart';
 import 'dart:convert';
@@ -78,11 +78,11 @@ class _QuizPageState extends State<QuizPage> {
     });
 
     // Navigation vers la page de résultat
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(
-        builder: (context) => ResultPage(profileResult: topProfile),
-      ),
-    );
+    // Navigator.of(context).pushReplacement(
+    //   MaterialPageRoute(
+    //     builder: (context) => ResultPage(profileResult: topProfile),
+    //   ),
+    // );
   }
 
   @override
