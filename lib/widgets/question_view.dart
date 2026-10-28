@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+import 'package:personality_quizz/models/quizz_state.dart';
+import 'package:personality_quizz/models/response.dart';
+
+class QuestionView extends StatelessWidget {
+  const new({super.key, required this.state, required this.onAnswerSelected});
+
+  final QuizzQuestionning state;
+  final void Function(Response) onAnswerSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(state.currentQuestion.question),
+          for(var response in state.currentQuestion.responses)
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                child: Text(response.text, style: Theme.of(context).textTheme.headlineSmall),
+                onPressed:() => onAnswerSelected(response),
+              ),
+            ),
+        ]
+      ),
+    );
+  }
+}
