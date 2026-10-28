@@ -12,8 +12,7 @@ class TieBreakerView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
+    return Column(
         children: [
           Text("Vos réponses vous permettent de choisir. Que souhaitez vous incarner ?"),
           for(var archetype in state.tiedArchetypes)
@@ -28,7 +27,6 @@ class TieBreakerView extends StatelessWidget {
             ),
           OutlinedButton(onPressed: () => startNewQuizz, child: null,),
         ],
-      ),
     );
   }
 }

@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:personality_quizz/models/quizz_state.dart';
 import 'package:personality_quizz/services/quizz_controller.dart';
+import 'package:personality_quizz/widgets/customization_view.dart';
+import 'package:personality_quizz/widgets/question_view.dart';
+import 'package:personality_quizz/widgets/summary_view.dart';
+import 'package:personality_quizz/widgets/tie_breaker_view.dart';
 
 ///Classe de rendue visuel 
 class QuizzScreen extends StatefulWidget {
@@ -31,29 +35,31 @@ class _QuizzScreenState extends State<QuizzScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-          child: ListenableBuilder(
-            listenable: _quizzController,
-            builder: (BuildContext context, Widget? child){ 
-              return switch(_quizzController.state){
-                QuizzLoading() => const CircularProgressIndicator(),
-                QuizzQuestionning() && final state => Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(state.currentQuestion.question),
-                    for(var response in state.currentQuestion.responses)
-                      ElevatedButton(
-                        child: Text(response.text),
-                        onPressed:() => _quizzController.answerQuestion(response),
-                      ),
-                  ]
+          child: 
+            ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 650), // 2. Largeur max sur PC (sur mobile < 650px, prend 100%)
+              child: SingleChildScrollView( // 3. Permet de scroller si l'écran est trop court
+                padding: const EdgeInsets.all(24.0),
+                child: ListenableBuilder(
+                  listenable: _quizzController,
+                  builder: (BuildContext context, Widget? child){ 
+                    return switch(_quizzController.state){
+                      QuizzLoading() => const CircularProgressIndicator(),
+                      QuizzQuestionning() && final state => QuestionView(state: state, onAnswerSelected: (response) => _quizzController.answerQuestion(response),),
+                      QuizzTieBreaker() && final state  => TieBreakerView(resolveTie: (archetype) => _quizzController.resolveTie(archetype),startNewQuizz: () => _quizzController.startNewQuizz(), state: state,),
+                      QuizzCustomization() && final state  => CustomizationView(
+                                                                onRestart: () => _quizzController.startNewQuizz(), 
+                                                                onSelectTalent: (talent) => _quizzController.selectTalent(talent), 
+                                                                onUpdateFocus: (focusName, delta) => _quizzController.updateFocusPoint(focusName, delta), 
+                                                                onValidate: () => _quizzController.validateCharacter(), 
+                                                                state: state,),
+                      QuizzSummary() && final state => SummaryView(onRestart: () => _quizzController.startNewQuizz(), state: state,),
+                    };
+                  }
                 ),
-                QuizzTieBreaker() && final state  => Text('État atteint : Tie'),
-                QuizzCustomization() && final state  => Text('État atteint : Customization'),
-                QuizzSummary() && final state => Text('État atteint : Summary'),
-              };
-            }
-          ),
+              ),
+            ),
         ),
-    );
+      );
   }
 }
