@@ -10,21 +10,21 @@ class QuestionView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
+    return Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        spacing: 10,
         children: [
-          Text(state.currentQuestion.question),
+          Text('Question n°${state.questionNumber}'),
+          Text(state.currentQuestion.question, style: Theme.of(context).textTheme.headlineLarge,),
           for(var response in state.currentQuestion.responses)
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                child: Text(response.text, style: Theme.of(context).textTheme.headlineSmall),
+                child: Text(response.text, style: Theme.of(context).textTheme.bodyMedium),
                 onPressed:() => onAnswerSelected(response),
               ),
             ),
-        ]
-      ),
+        ],
     );
   }
 }
