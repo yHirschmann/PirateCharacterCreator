@@ -12,9 +12,9 @@ import 'package:personality_quizz/services/repository/data_repository.dart';
 class QuizzController extends ChangeNotifier {
   static const int victoryThreshold = 12;
 
-  int numberQuestion = 1;
+  int _numberQuestion = 1;
 
-  DataRepository repository = DataRepository();
+  final DataRepository repository = DataRepository();
   QuizzConfig? quizzConfig;
 
   final Map<int, int> _score = {};
@@ -36,13 +36,13 @@ class QuizzController extends ChangeNotifier {
   }
 
   void startNewQuizz(){
-    numberQuestion = 1;
+    _numberQuestion = 1;
     _score.updateAll((key, value) => 0);
     
     _refillAndShuffleDeck();
 
     var firstQuestion = _drawNextQuestion();
-    _emit(QuizzQuestionning(currentQuestion: firstQuestion, questionNumber: numberQuestion));
+    _emit(QuizzQuestionning(currentQuestion: firstQuestion, questionNumber: _numberQuestion));
   }
 
   void answerQuestion(Response response){
@@ -55,9 +55,9 @@ class QuizzController extends ChangeNotifier {
     }
 
     if(_score.entries.every((e) => e.value < victoryThreshold)){
-      numberQuestion++;
+      _numberQuestion++;
       var question = _drawNextQuestion();
-      _emit(QuizzQuestionning(currentQuestion: question, questionNumber: numberQuestion));
+      _emit(QuizzQuestionning(currentQuestion: question, questionNumber: _numberQuestion));
     }
     else{
       var winningIds = _score.entries.where((entry) => entry.value >= victoryThreshold).map((entry) => entry.key).toList();

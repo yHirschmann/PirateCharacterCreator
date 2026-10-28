@@ -1,7 +1,6 @@
-import 'package:personality_quizz/services/quizz_controller.dart';
+import 'package:flutter/widgets.dart';
+import 'package:personality_quizz/widgets/my_app.dart';
 
-void main() async {
- 
-  var t = QuizzController();
-  await t.init();
+void main() {
+  runApp(const MyApp());
 }

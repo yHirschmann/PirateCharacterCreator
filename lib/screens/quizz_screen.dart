@@ -4,7 +4,7 @@ import 'package:personality_quizz/services/quizz_controller.dart';
 
 ///Classe de rendue visuel 
 class QuizzScreen extends StatefulWidget {
-  const new({super.key});
+  const QuizzScreen({super.key});
 
   @override
   State<QuizzScreen> createState() => _QuizzScreenState();
@@ -13,7 +13,7 @@ class QuizzScreen extends StatefulWidget {
 ///Classe d'état de [QuizzScreen]
 class _QuizzScreenState extends State<QuizzScreen> {
 
-  late final QuizzController _quizzController = QuizzController();
+  final QuizzController _quizzController = QuizzController();
 
   @override
   void initState() {
@@ -23,6 +23,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
 
   @override
   void dispose() {
+    _quizzController.dispose();
     super.dispose();
   }
 
@@ -36,6 +37,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
               return switch(_quizzController.state){
                 QuizzLoading() => const CircularProgressIndicator(),
                 QuizzQuestionning() && final state => Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(state.currentQuestion.question),
                     for(var response in state.currentQuestion.responses)
@@ -55,4 +57,3 @@ class _QuizzScreenState extends State<QuizzScreen> {
     );
   }
 }
-          // child: Text('Hello World!'),

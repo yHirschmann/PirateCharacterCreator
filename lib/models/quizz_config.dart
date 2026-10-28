@@ -14,10 +14,11 @@ class QuizzConfig{
       title: json["title"] as String, 
       style: json["style"] as String, 
       totalQuestions: json["total_questions"] as int, 
-      totalResponses: json["total_reponses"] as int,
+      totalResponses: json["total_responses"] as int,
       recommendedQuestionsperSession: json["recommended_questions_per_session"] as int, 
       tieHandling: json["tie_handling"] as String, 
-      equilibragePerArchetype: json["equilibrage_par_archetype"] as Map<String, int>
+      equilibragePerArchetype: Map<String, int>.from(json["equilibrage_par_archetype"] as Map<String, dynamic>).map(
+                                        (key, value) => MapEntry(key, value)),
     );
   }
   

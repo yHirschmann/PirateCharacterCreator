@@ -31,10 +31,10 @@ class Archetype {
       name: json["Name"] as String,
       description: json["Description"] as String,
       focus: List<String>.from(json["Focus"] as List<dynamic>),
-      skills: Map<String, int>.from(json["Skill"] as Map<String, dynamic>).map(
-        (key, value) => MapEntry(key, _parseStat(value)),
+      skills: (json["Skill"] as Map<String, dynamic>).map(
+  (key, value) => MapEntry(key, _parseStat(value)),
       ),
-      styles: Map<String, int>.from(json["Style"] as Map<String, dynamic>).map(
+      styles: (json["Styles"] as Map<String, dynamic>).map(
         (key, value) => MapEntry(key, _parseStat(value)),
       ),
       talents: (json["Talent"] as List<dynamic>).map((item) => Talent.fromJson(item as Map<String, dynamic>)).toList(),
