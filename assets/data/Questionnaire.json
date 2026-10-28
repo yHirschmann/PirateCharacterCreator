@@ -3,7 +3,7 @@
     "title": "Quizz de Personnalité - Choix d'Archétype",
     "style": "Psychologique / Intemporel",
     "total_questions": 45,
-    "total_reponses": 96,
+    "total_responses": 96,
     "recommended_questions_per_session": 8,
     "tie_handling": "player_choice",
     "equilibrage_par_archetype": {
@@ -16,11 +16,11 @@
     {
       "id": "1",
       "question": "Une lourde porte verrouillée vous bloque le passage au fond d'un couloir silencieux. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "1A",
           "texte": "J'examine les gonds et le mécanisme de la serrure pour trouver comment les faire sauter ou les démonter.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -28,7 +28,7 @@
         {
           "id": "1B",
           "texte": "Je recule de quelques pas et je donne un grand coup d'épaule sans hésiter pour forcer le passage.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -36,7 +36,7 @@
         {
           "id": "1C",
           "texte": "Je fouille les environs à la recherche d'une clé oubliée ou d'un passage dérobé permettant de la contourner.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -44,7 +44,7 @@
         {
           "id": "1D",
           "texte": "Je colle mon oreille contre le battant et je ferme les yeux pour percevoir ce qui se trame de l'autre côté.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -54,11 +54,11 @@
     {
       "id": "2",
       "question": "Au milieu d'une assemblée, un inconnu vous accuse à tort d'une faute grave. Comment réagissez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "2A",
           "texte": "Je lui réponds avec une politesse glaciale et un trait d'esprit qui retournent immédiatement le ridicule contre lui.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -66,7 +66,7 @@
         {
           "id": "2B",
           "texte": "J'élève la voix pour imposer le silence dans la salle et j'exige qu'il avance des preuves devant tout le monde.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -74,7 +74,7 @@
         {
           "id": "2C",
           "texte": "Je hausse les épaules sans dire un mot et je m'éloigne : les paroles en l'air ne méritent pas mon énergie.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -82,7 +82,7 @@
         {
           "id": "2D",
           "texte": "Je démonte calmement ses arguments un par un en pointant chaque incohérence logique de son récit.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -92,11 +92,11 @@
     {
       "id": "3",
       "question": "Vous vous réveillez seul au cœur d'une forêt inconnue enveloppée d'un épais brouillard. Quel est votre premier réflexe ?",
-      "reponses": [
+      "responses": [
         {
           "id": "3A",
           "texte": "J'observe l'humidité des troncs et la pente du terrain pour dresser une carte mentale des lieux.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -104,7 +104,7 @@
         {
           "id": "3B",
           "texte": "Je grimpe au sommet de l'arbre le plus haut pour émerger au-dessus de la brume et repérer une issue.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -112,7 +112,7 @@
         {
           "id": "3C",
           "texte": "Je ramasse une branche solide et j'avance droit vers les bruits les plus inquiétants pour lever le doute.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -120,7 +120,7 @@
         {
           "id": "3D",
           "texte": "Je marque clairement mon point de départ et je sécurise les abords immédiats avant de tenter quoi que ce soit.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -130,11 +130,11 @@
     {
       "id": "4",
       "question": "Un ami proche vous confie en tremblant qu'il a commis une grave erreur et qu'on le recherche. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "4A",
           "texte": "Je l'aide d'abord à calmer sa panique, puis je cherche comment réparer concrètement les conséquences de son acte.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -142,7 +142,7 @@
         {
           "id": "4B",
           "texte": "Je lui trouve immédiatement une cachette sûre et je brouille les pistes pour que personne ne remonte jusqu'à lui.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -150,7 +150,7 @@
         {
           "id": "4C",
           "texte": "Je me poste à ses côtés : si quelqu'un veut s'en prendre à lui, il devra d'abord me passer sur le corps.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -158,7 +158,7 @@
         {
           "id": "4D",
           "texte": "Je lui rappelle que chaque choix exige un sacrifice et je l'encourage à affronter son destin la tête haute.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -168,11 +168,11 @@
     {
       "id": "5",
       "question": "Lors d'une partie de jeu tendue, vous remarquez que votre adversaire triche. Quelle est votre réaction ?",
-      "reponses": [
+      "responses": [
         {
           "id": "5A",
           "texte": "Je le démasque d'un geste théâtral devant toute l'assistance et je le mets au défi de se mesurer à moi loyalement.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -180,7 +180,7 @@
         {
           "id": "5B",
           "texte": "Je ne dis rien et je me mets à tricher encore plus habilement que lui pour le dépouiller à son propre jeu.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -188,7 +188,7 @@
         {
           "id": "5C",
           "texte": "J'attends le moment exact où il mise tout pour briser son stratagème d'un coup sec et ne lui laisser aucune issue.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -196,7 +196,7 @@
         {
           "id": "5D",
           "texte": "J'observe silencieusement le mouvement de ses mains pour mémoriser sa technique sans éveiller ses soupçons.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -206,11 +206,11 @@
     {
       "id": "6",
       "question": "Un violent orage éclate alors que vous vous trouvez dans un refuge isolé avec des inconnus. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "6A",
           "texte": "Je répartis les tâches de chacun pour entretenir le feu, éconameiser les vivres et maintenir le moral du groupe.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -218,7 +218,7 @@
         {
           "id": "6B",
           "texte": "Je renforce les volets et la charpente en bricolant des cales avec tout le matériel disponible.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -226,7 +226,7 @@
         {
           "id": "6C",
           "texte": "Je m'installe en retrait près de l'entrée pour monter la garde au cas où un danger profiterait du vacarme.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -234,7 +234,7 @@
         {
           "id": "6D",
           "texte": "Je reste près de la fenêtre à contempler la foudre, fasciné par le spectacle et la puissance des éléments.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -244,11 +244,11 @@
     {
       "id": "7",
       "question": "Vous découvrez un coffret ancien scellé par un mécanisme complexe. Comment tentez-vous de l'ouvrir ?",
-      "reponses": [
+      "responses": [
         {
           "id": "7A",
           "texte": "J'utilise une tige métallique fine pour tâter les ressorts internes et crocheter la serrure à l'oreille.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -256,7 +256,7 @@
         {
           "id": "7B",
           "texte": "J'étudie minutieusement les symboles gravés sur ses faces pour déduire la combinaison prévue par son créateur.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -264,7 +264,7 @@
         {
           "id": "7C",
           "texte": "Je reconnais l'emblème d'une grande lignée sur le fermoir et je sais exactement auprès de qui faire valoir cette découverte.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -274,11 +274,11 @@
     {
       "id": "8",
       "question": "Au détour d'un sentier escarpé, un grand prédateur affamé vous barre la route. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "8A",
           "texte": "Je soutiens son regard sans reculer d'un seul pas pour lui faire comprendre que je ne suis pas une proie.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -286,7 +286,7 @@
         {
           "id": "8B",
           "texte": "Je lance un morceau de nourriture en contrebas pour détourner son attention et je poursuis ma route sans bruit.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -294,7 +294,7 @@
         {
           "id": "8C",
           "texte": "Je bondis immédiatement sur un rocher en surplomb pour prendre l'avantage de la vitesse et de la hauteur.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -304,11 +304,11 @@
     {
       "id": "9",
       "question": "On vous propose un accord très avantageux, mais certaines conditions restent volontairement floues. Que décidez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "9A",
           "texte": "Je négocie chaque formule avec le sourire pour y glisser discrètement une clause qui me protège.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -316,7 +316,7 @@
         {
           "id": "9B",
           "texte": "Je demande un délai de réflexion et j'enquête dans l'ombre sur mon interlocuteur avant de m'engager.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -324,7 +324,7 @@
         {
           "id": "9C",
           "texte": "J'accepte le risque sans hésiter, tout en préparant de quoi renverser brutalement la table s'il tente de me doubler.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -334,11 +334,11 @@
     {
       "id": "10",
       "question": "Une rumeur alarmante se répand autour de vous et commence à semer la panique. Comment agissez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "10A",
           "texte": "Je prends la parole avec fermeté pour calmer les esprits et empêcher la foule de céder à la peur.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -346,7 +346,7 @@
         {
           "id": "10B",
           "texte": "Je remonte méthodiquement à l'origine du bruit pour isoler les faits réels des exagérations.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -354,7 +354,7 @@
         {
           "id": "10C",
           "texte": "Je prête l'oreille aux murmures des marginaux et aux présages, convaincu qu'aucune peur ne naît par hasard.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -364,11 +364,11 @@
     {
       "id": "11",
       "question": "Vous devez traverser une grande ville inconnue en pleine nuit. Quel itinéraire empruntez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "11A",
           "texte": "Je me faufile par les passages étroits et les zones d'ombre en évitant soigneusement les avenues fréquentées.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -376,7 +376,7 @@
         {
           "id": "11B",
           "texte": "Je marche au milieu de l'artère principale avec une telle assurance que personne n'ose me barrer le chemin.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -384,7 +384,7 @@
         {
           "id": "11C",
           "texte": "Je me fie à la position des étoiles et au sens du vent pour garder le cap sans jamais me perdre.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -394,11 +394,11 @@
     {
       "id": "12",
       "question": "Quelqu'un tente de vous intimider pour vous forcer à abandonner un projet qui vous tient à cœur. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "12A",
           "texte": "J'analyse froidement sa posture, je repère sa faille et j'appuie exactement là où ça fait mal.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -406,7 +406,7 @@
         {
           "id": "12B",
           "texte": "Je feins de céder pour endormir sa méfiance, tout en préparant déjà le moyen de contourner son obstacle.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -414,7 +414,7 @@
         {
           "id": "12C",
           "texte": "Je me fie à mon instinct : plus on cherche à m'éloigner d'un endroit, plus ce qui s'y cache en vaut la peine.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -424,11 +424,11 @@
     {
       "id": "13",
       "question": "Vous êtes témoin d'un phénameène inexplicable qui glace le sang de votre entourage. Quelle est votre réaction ?",
-      "reponses": [
+      "responses": [
         {
           "id": "13A",
           "texte": "Je fais un pas en avant sans trembler, prêt à sonder l'inconnu et à en payer le prix s'il le faut.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -436,7 +436,7 @@
         {
           "id": "13B",
           "texte": "Je garde la tête froide, j'examine les signes concrets et je veille avant tout à l'intégrité physique du groupe.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -446,11 +446,11 @@
     {
       "id": "14",
       "question": "Lorsqu'on vous confie une mission difficile, où puisez-vous votre plus grande satisfaction ?",
-      "reponses": [
+      "responses": [
         {
           "id": "14A",
           "texte": "Dans la découverte d'un chemin inédit là où personne n'avait encore osé s'aventurer.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -458,7 +458,7 @@
         {
           "id": "14B",
           "texte": "Dans l'élégance d'une réussite menée avec maîtrise et le respect qu'elle inspire à mes pairs.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -468,11 +468,11 @@
     {
       "id": "15",
       "question": "Dans une épreuve de force qui s'éternise, quelle approche adoptez-vous pour l'emporter ?",
-      "reponses": [
+      "responses": [
         {
           "id": "15A",
           "texte": "Je provoque une ouverture audacieuse pour tout décider en un seul coup d'éclat.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -480,7 +480,7 @@
         {
           "id": "15B",
           "texte": "J'use patiemment mon adversaire, je traque le moindre signe de fatigue et je ne lâche jamais prise.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -490,11 +490,11 @@
     {
       "id": "16",
       "question": "Un pont de pierre à moitié effondré enjambe un gouffre profond. Comment décidez-vous de le franchir ?",
-      "reponses": [
+      "responses": [
         {
           "id": "16A",
           "texte": "Je teste la résistance des piliers porteurs en faisant rouler une lourde pierre pour voir où la structure tient bon.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -502,7 +502,7 @@
         {
           "id": "16B",
           "texte": "Je prends mon élan sans tergiverser pour bondir par-dessus la brèche avant que la peur ne fasse hésiter ceux qui me suivent.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -510,7 +510,7 @@
         {
           "id": "16C",
           "texte": "Je cherche les marques discrètes de passage laissées sur la roche pour trouver un sentier qui contourne le gouffre.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -518,7 +518,7 @@
         {
           "id": "16D",
           "texte": "Je me glisse le long de la corniche étroite en contrebas en répartissant mon poids sur les prises les plus sûres.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -528,11 +528,11 @@
     {
       "id": "17",
       "question": "La nuit tombe alors qu'il vous reste encore une longue distance à parcourir en terrain inconnu. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "17A",
           "texte": "Je ralentis à peine l'allure en adaptant ma foulée aux reliefs du sol que je devine malgré la pénamebre.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -540,7 +540,7 @@
         {
           "id": "17B",
           "texte": "Je redouble de vigilance en guettant les ombres : l'obscurité est le moment où les menaces cachées finissent par surgir.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -548,7 +548,7 @@
         {
           "id": "17C",
           "texte": "Je pars seul en avant pour sonder les environs et éviter au reste du groupe une fatigue ou un détour inutile.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -556,7 +556,7 @@
         {
           "id": "17D",
           "texte": "Je dresse un campement ingénieux en tirant parti du terrain pour étudier tranquillement l'itinéraire du lendemain.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -566,11 +566,11 @@
     {
       "id": "18",
       "question": "Un adversaire réputé invincible vous propose de régler un différend en tête-à-tête. Quelle est votre approche ?",
-      "reponses": [
+      "responses": [
         {
           "id": "18A",
           "texte": "Je relève le défi sur-le-champ : plus l'opposant est redoutable, plus la victoire sera éclatante.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -578,7 +578,7 @@
         {
           "id": "18B",
           "texte": "J'impose moi-même le lieu et l'heure de la rencontre afin de m'assurer le contrôle total du terrain.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -586,7 +586,7 @@
         {
           "id": "18C",
           "texte": "Je cherche à comprendre d'où lui vient cette réputation et quel secret ou croyance se cache derrière sa légende.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -594,7 +594,7 @@
         {
           "id": "18D",
           "texte": "Je le salue avec une courtoisie irréprochable tout en jaugeant froidement son équilibre et sa respiration.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -604,11 +604,11 @@
     {
       "id": "19",
       "question": "Vous découvrez qu'une personne de votre entourage vous cache un lourd secret. Comment réagissez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "19A",
           "texte": "Je la prends entre quatre yeux et ne la lâche pas jusqu'à être certain que son secret ne met pas le groupe en danger.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -616,7 +616,7 @@
         {
           "id": "19B",
           "texte": "Je rassemble patiemment des indices sans rien laisser paraître : connaître un secret bien gardé finit toujours par devenir utile.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -624,7 +624,7 @@
         {
           "id": "19C",
           "texte": "Je glisse une allusion subtile dans la conversation pour lui faire comprendre que je sais tout, sans jamais la dénoncer.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -632,7 +632,7 @@
         {
           "id": "19D",
           "texte": "J'observe son état de fatigue et ses silences pour intervenir avec précision à l'instant où elle sera prête à se confier.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -642,11 +642,11 @@
     {
       "id": "20",
       "question": "Une ressource rare vient à manquer au sein de votre communauté et les tensions montent. Quelle mesure prenez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "20A",
           "texte": "J'instaure un partage strict au grand jour tout en négociant en coulisses un approvisionnement de secours.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -654,7 +654,7 @@
         {
           "id": "20B",
           "texte": "Je repère discrètement ceux qui cachent des réserves et je les expose en public pour les forcer à partager.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -662,7 +662,7 @@
         {
           "id": "20C",
           "texte": "J'analyse la composition de ce qu'il nous reste pour concevoir un substitut efficace à partir de matériaux courants.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -670,7 +670,7 @@
         {
           "id": "20D",
           "texte": "J'accepte cette privation comme une épreuve nécessaire et je traque sans relâche la source du mal qui frappe les nôtres.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -680,11 +680,11 @@
     {
       "id": "21",
       "question": "Vous entrez dans un marché animé où personne ne parle votre langue. Comment vous y prenez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "21A",
           "texte": "Je repère d'un coup d'œil les échanges qui se font à l'abri des regards et je m'approche des intermédiaires.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -692,7 +692,7 @@
         {
           "id": "21B",
           "texte": "J'examine les produits, les remèdes et l'artisanat local pour déduire le mode de vie et les besoins des habitants.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -700,7 +700,7 @@
         {
           "id": "21C",
           "texte": "Je me fie aux gestes rituels, aux regards et au silence pour établir un lien instinctif qui dépasse les mots.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -708,7 +708,7 @@
         {
           "id": "21D",
           "texte": "J'imite les codes de la rue et le ton des marchands locaux pour me faire respecter comme si j'étais d'ici.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -718,11 +718,11 @@
     {
       "id": "22",
       "question": "Un incendie se déclare soudainement dans un grand bâtiment où vous vous trouvez. Quel est votre réflexe ?",
-      "reponses": [
+      "responses": [
         {
           "id": "22A",
           "texte": "Je mémorise la disposition des couloirs avant que la fumée ne s'épaississe pour ouvrir une voie d'évacuation sûre.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -730,7 +730,7 @@
         {
           "id": "22B",
           "texte": "Je garde une prestance impassible face au chaos, refusant de laisser la panique altérer mon sang-froid.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -738,7 +738,7 @@
         {
           "id": "22C",
           "texte": "Je bondis par une fenêtre ou me suspends à une corniche à la force des bras sans attendre que les issues principales soient bloquées.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -746,7 +746,7 @@
         {
           "id": "22D",
           "texte": "J'abats un pan de cloison précis pour couper l'appel d'air et détourner la trajectoire des flammes à mon avantage.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -756,11 +756,11 @@
     {
       "id": "23",
       "question": "Au cours d'un voyage, vous tombez sur les vestiges d'un lieu abandonné depuis des siècles. Qu'est-ce qui attire votre attention ?",
-      "reponses": [
+      "responses": [
         {
           "id": "23A",
           "texte": "Les fresques et les armoiries effacées qui racontent la grandeur et la chute de ceux qui ont régné ici.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -768,7 +768,7 @@
         {
           "id": "23B",
           "texte": "Les traces du quotidien et les objets oubliés dans les recoins qui révèlent de quoi ces gens ont réellement souffert.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -776,7 +776,7 @@
         {
           "id": "23C",
           "texte": "Les points de rupture de l'architecture qui risqueraient de faire s'écrouler les murs en cas de problèmes.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -784,7 +784,7 @@
         {
           "id": "23D",
           "texte": "La façon dont la végétation a repris ses droits et les pistes fraîches laissées par la faune sauvage.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -794,11 +794,11 @@
     {
       "id": "24",
       "question": "Un banquet somptueux est organisé en votre honneur, mais vous sentez une hostilité latente chez vos hôtes. Que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "24A",
           "texte": "Je porte un toast éblouissant tout en surveillant du coin de l'œil la couleur des boissons et l'attitude des serviteurs.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -806,7 +806,7 @@
         {
           "id": "24B",
           "texte": "Je prononce une parole énigmatique et pesante qui sème le trouble dans l'assemblée et fait exploser les faux-semblants.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -814,7 +814,7 @@
         {
           "id": "24C",
           "texte": "Je touche à peine aux plats et je place mes compagnons de manière à tenir fermement chaque issue de la salle.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -822,7 +822,7 @@
         {
           "id": "24D",
           "texte": "Je provoque délibérément le plus nerveux des convives par un coup d'audace pour le pousser à trahir les intentions de nos hôtes.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -832,11 +832,11 @@
     {
       "id": "25",
       "question": "Vous croisez sur votre route un voyageur épuisé et blessé qui refuse obstinément toute aide. Comment agissez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "25A",
           "texte": "J'évalue la gravité de son état d'un coup d'œil et je lui tends le remède exact en silence, sans le forcer.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -844,7 +844,7 @@
         {
           "id": "25B",
           "texte": "Je lui laisse de quoi se nourrir à portée de main sans poser de questions : je sais ce que c'est que de ne faire confiance à personne.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -852,7 +852,7 @@
         {
           "id": "25C",
           "texte": "Je le provoque en lui proposant un pari qui lui permetrait d'accepter mon soutien sans perdre la face.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -860,7 +860,7 @@
         {
           "id": "25D",
           "texte": "J'inspecte la nature de ses entailles pour savoir quelle menace l'a mis dans cet état et lui rendre justice.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -870,11 +870,11 @@
     {
       "id": "26",
       "question": "Vous faites un rêve récurrent dans lequel une voix vous avertit d'un danger imminent. Quelle importance lui accordez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "26A",
           "texte": "J'interprète chaque symbole de ce songe et je modifie aussitôt mes trajets et mes habitudes pour déjouer le mauvais sort.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -882,7 +882,7 @@
         {
           "id": "26B",
           "texte": "Je prépare méthodiquement mon matériel : si le danger se présente, il sera accueilli avec fracas.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -890,7 +890,7 @@
         {
           "id": "26C",
           "texte": "Je prends les devants en partant moi-même en reconnaissance pour débusquer la menace avant qu'elle ne frappe.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -898,7 +898,7 @@
         {
           "id": "26D",
           "texte": "J'organise des tours de garde tout en veillant à ce que le manque de sommeil n'affaiblisse personne.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -908,11 +908,11 @@
     {
       "id": "27",
       "question": "Vous êtes enfermé à tort dans une cellule gardée. Comment préparez-vous votre évasion ?",
-      "reponses": [
+      "responses": [
         {
           "id": "27A",
           "texte": "Je descelle une pièce métallique du lit pour faire sauter le ressort du verrou et saboter la porte.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -920,7 +920,7 @@
         {
           "id": "27B",
           "texte": "J'éconameise mes forces dans un silence absolu et j'attends l'instant précis où le geôlier baisse sa garde.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -928,7 +928,7 @@
         {
           "id": "27C",
           "texte": "Je coordonne les autres détenus et je calcule le temps des rondes pour orchestrer une sortie méthodique.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -936,7 +936,7 @@
         {
           "id": "27D",
           "texte": "Je murmure au garde ce qu'il a le plus peur de perdre ou le plus envie d'obtenir jusqu'à ce qu'il m'ouvre de lui-même.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -946,11 +946,11 @@
     {
       "id": "28",
       "question": "Lors d'une fête masquée, tout le monde cache son identité. Quelle attitude adoptez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "28A",
           "texte": "Je me poste près des balcons pour observer d'en haut comment la soirée se déroule.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -958,7 +958,7 @@
         {
           "id": "28B",
           "texte": "Je reste en lisière des groupes, devinant l'origine de chacun à sa démarche et à son maintien sous le masque.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -966,7 +966,7 @@
         {
           "id": "28C",
           "texte": "Je m'élance au centre de la danse avec une audace magnétique, comme si le destin lui-même guidait mes pas.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -976,11 +976,11 @@
     {
       "id": "29",
       "question": "Après une longue épreuve physique, comment récupérez-vous le mieux vos forces ?",
-      "reponses": [
+      "responses": [
         {
           "id": "29A",
           "texte": "En marchant seul au grand air, loin de l'agitation, les yeux tournés vers l'horizon.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -988,7 +988,7 @@
         {
           "id": "29B",
           "texte": "En étirant mes muscles avec méthode et en soignant la moindre courbature pour être prêt à repartir.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -996,7 +996,7 @@
         {
           "id": "29C",
           "texte": "En restant sur le qui-vive dans un coin animé: l'habitude des coups durs m'a appris à récupérer en restant vigilant.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -1006,11 +1006,11 @@
     {
       "id": "30",
       "question": "Quelqu'un brise délibérément un objet auquel vous teniez beaucoup. Quelle est votre réaction ?",
-      "reponses": [
+      "responses": [
         {
           "id": "30A",
           "texte": "J'exige réparation sur-le-champ en lui signifiant avec éclat que cet affront ne restera pas impuni.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -1018,7 +1018,7 @@
         {
           "id": "30B",
           "texte": "Je ramasse les fragments en silence et je grave sa dette dans ma mémoire jusqu'à l'heure des comptes.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -1026,7 +1026,7 @@
         {
           "id": "30C",
           "texte": "Je lui impose de réparer les dégâts sous ma surveillance et j'en profite pour renforcer la solidité de l'objet.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -1036,11 +1036,11 @@
     {
       "id": "31",
       "question": "Vous devez traverser une région frappée par un mal mystérieux. Quelle précaution privilégiez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "31A",
           "texte": "J'étudie les symptômes sur la faune et les habitants pour identifier précisément le vecteur du mal.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -1048,7 +1048,7 @@
         {
           "id": "31B",
           "texte": "Je maintiens une discipline stricte dans le groupe tout en m'informant auprès des gens des faubourgs sur les zones épargnées.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -1056,7 +1056,7 @@
         {
           "id": "31C",
           "texte": "Je contourne les postes de quarantaine par des sentiers sauvages en emportant mes propres réserves.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -1066,11 +1066,11 @@
     {
       "id": "32",
       "question": "Face à une règle que tout le monde juge absurde mais que personne n'ose contester, que faites-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "32A",
           "texte": "Je prends la parole au name de tous avec une conviction si fervente que la règle perd immédiatement sa légitimité.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -1078,7 +1078,7 @@
         {
           "id": "32B",
           "texte": "Je fais mine de la respecter tout en exploitant ses failles techniques pour la faire imploser de l'intérieur.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -1086,7 +1086,7 @@
         {
           "id": "32C",
           "texte": "Je la transgresse dès que les regards se détournent, laissant les hésitants débattre derrière moi.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -1096,11 +1096,11 @@
     {
       "id": "33",
       "question": "Vous trouvez un objet précieux manifestement perdu au milieu d'un chemin. Que décidez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "33A",
           "texte": "Je le glisse dans ma poche d'un geste naturel: ce que les imprudents égarent appartient à ceux qui ouvrent l'œil.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -1108,7 +1108,7 @@
         {
           "id": "33B",
           "texte": "J'observe les empreintes autour de l'objet pour voir qui est passé par là et s'il ne s'agit pas d'un appât.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -1116,7 +1116,7 @@
         {
           "id": "33C",
           "texte": "J'examine sa provenance et ses marques d'usure pour deviner le parcours de son propriétaire.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -1126,11 +1126,11 @@
     {
       "id": "34",
       "question": "Vous devez préparer un groupe pour une expédition périlleuse. Sur quoi insistez-vous le plus ?",
-      "reponses": [
+      "responses": [
         {
           "id": "34A",
           "texte": "Sur le repérage préalable des lieux et la fiabilité irréprochable de chaque pièce d'équipement.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -1138,7 +1138,7 @@
         {
           "id": "34B",
           "texte": "Sur la connaissance des cartes et la capacité à réagir rapidement face à l'imprévu.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -1146,7 +1146,7 @@
         {
           "id": "34C",
           "texte": "Sur le respect de la hiérarchie, la tenue de chacun et l'honneur de la mission qui nous rassemble.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -1156,11 +1156,11 @@
     {
       "id": "35",
       "question": "Un inconnu vous offre un présent d'une grande valeur sans rien demander en retour. Que pensez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "35A",
           "texte": "J'étudie la rareté de l'objet avec curiosité tout en restant sur mes gardes.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -1168,7 +1168,7 @@
         {
           "id": "35B",
           "texte": "Je reçois cet hommage comme un dû lié à mon rang, mais je me méfie aussitôt d'un potentiel piège que ce geste peut dissimuler.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -1176,7 +1176,7 @@
         {
           "id": "35C",
           "texte": "J'inspecte l'objet sous toutes les coutures pour m'assurer qu'il n'est ni altéré ni dangereux avant d'en tirer profit.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -1186,11 +1186,11 @@
     {
       "id": "36",
       "question": "Un débat passionné divise vos compagnons en deux camps irréconciliables. Quel rôle jouez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "36A",
           "texte": "Je tranche la discussion par une réplique incisive et brillante qui met au défi quiconque de me contredire.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -1198,7 +1198,7 @@
         {
           "id": "36B",
           "texte": "J'expose posément les risques réels de chaque option pour ramener le groupe à une décision pragmatique et unie.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -1206,7 +1206,7 @@
         {
           "id": "36C",
           "texte": "J'écoute ce qui ne se dit pas à voix haute et je prends discrètement les devants selon mon propre pressentiment.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -1216,11 +1216,11 @@
     {
       "id": "37",
       "question": "Vous devez veiller toute la nuit sur un lieu menacé. Comment occupez-vous ces heures d'attente ?",
-      "reponses": [
+      "responses": [
         {
           "id": "37A",
           "texte": "Je prépare mes équipements avec méthode en étudiant les points vitaux par lesquels l'agresseur pourrait frapper.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -1228,7 +1228,7 @@
         {
           "id": "37B",
           "texte": "Je dispose des signes discrets et des leurres aux abords du lieu pour troubler quiconque oserait approcher.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -1236,7 +1236,7 @@
         {
           "id": "37C",
           "texte": "Je fouille chaque recoin et passage oublié du lieu pour le connaître mieux que quiconque.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -1246,11 +1246,11 @@
     {
       "id": "38",
       "question": "Lorsque vous devez convaincre une foule réticente de vous suivre, sur quel levier appuyez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "38A",
           "texte": "J'invoque des forces qui nous dépassent et j'impose ma vision avec une autorité qui ne souffre d'aucune réplique.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -1258,7 +1258,7 @@
         {
           "id": "38B",
           "texte": "Je parle avec leurs mots en leur montrant le passage que j'ai déjà repérée pour eux.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -1266,7 +1266,7 @@
         {
           "id": "38C",
           "texte": "Je fais une démonstration spectaculaire et maîtrisée de mon savoir-faire qui impose immédiatement le respect.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
@@ -1276,11 +1276,11 @@
     {
       "id": "39",
       "question": "Vous manquez d'outils adaptés pour accomplir une tâche urgente. Comment improvisez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "39A",
           "texte": "Je récupère ce qui traîne ou je l'emprunte sans demander pour bricoler une solution de fortune en un clin d'œil.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -1288,7 +1288,7 @@
         {
           "id": "39B",
           "texte": "J'assemble les matériaux à ma disposition en espérant que ça réponde à mon besoin.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -1296,7 +1296,7 @@
         {
           "id": "39C",
           "texte": "Je prélève dans les ressources dans l'environnement naturel pour fabriquer une solution simple mais infaillible.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -1306,11 +1306,11 @@
     {
       "id": "40",
       "question": "Face à un obstacle qui semble impossible à ébranler, quelle conviction vous guide ?",
-      "reponses": [
+      "responses": [
         {
           "id": "40A",
           "texte": "Toute structure possède un point de rupture précis : il suffit d'analyser ses lignes de tension et de frapper juste.",
-          "effets": [
+          "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 2 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 1 }
           ]
@@ -1318,7 +1318,7 @@
         {
           "id": "40B",
           "texte": "La patience et l'harmonie avec les forces qui nous entourent finissent toujours par venir à bout de la pierre la plus dure.",
-          "effets": [
+          "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 2 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 1 }
           ]
@@ -1328,11 +1328,11 @@
     {
       "id": "41",
       "question": "Quand un conflit devient inévitable, avec quel avantage comptez-vous prendre le dessus ?",
-      "reponses": [
+      "responses": [
         {
           "id": "41A",
           "texte": "La vivacité de mes réflexes, les feintes imprévisibles et l'utilisation de tout ce qui m'entoure.",
-          "effets": [
+          "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 1 }
           ]
@@ -1340,7 +1340,7 @@
         {
           "id": "41B",
           "texte": "La préparation minutieuse d'un plan, ainsi qu'une puissance de feu capable de briser net l'élan de la menace la plus féroce.",
-          "effets": [
+          "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
             { "archetype_id": "1", "name": "L'Artilleur", "points": 1 }
           ]
@@ -1350,11 +1350,11 @@
     {
       "id": "42",
       "question": "Qu'est-ce qui fait selon vous la véritable force d'un collectif dans l'adversité ?",
-      "reponses": [
+      "responses": [
         {
           "id": "42A",
           "texte": "La cohésion sans faille autour d'une voix directrice et l'endurance individuelle de chacun face aux épreuves.",
-          "effets": [
+          "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
             { "archetype_id": "2", "name": "Le Boucanier", "points": 1 }
           ]
@@ -1362,7 +1362,7 @@
         {
           "id": "42B",
           "texte": "L'art de saisir les opportunités en marge des règles et l'audace de tenter un coup d'éclat au moment décisif.",
-          "effets": [
+          "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 1 }
           ]
@@ -1372,11 +1372,11 @@
     {
       "id": "43",
       "question": "Lorsque vous vous aventurez en territoire inconnu, quel est votre objectif prioritaire ?",
-      "reponses": [
+      "responses": [
         {
           "id": "43A",
           "texte": "Débusquer en silence les prédateurs ou menaces avant qu'ils ne puissent surprendre mes compagnons.",
-          "effets": [
+          "effects": [
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 1 }
           ]
@@ -1384,7 +1384,7 @@
         {
           "id": "43B",
           "texte": "Tracer une route claire à travers l'inconnu et organiser méthodiquement la progression de l'expédition.",
-          "effets": [
+          "effects": [
             { "archetype_id": "8", "name": "L'Explorateur", "points": 2 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 1 }
           ]
@@ -1394,11 +1394,11 @@
     {
       "id": "44",
       "question": "Dans un cercle d'influence où chacun cherche à tirer son épingle du jeu, comment vous imposez-vous ?",
-      "reponses": [
+      "responses": [
         {
           "id": "44A",
           "texte": "Par la maîtrise souveraine des usages, l'art du sous-entendu et la connaissance des dettes secrètes de chacun.",
-          "effets": [
+          "effects": [
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 2 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 1 }
           ]
@@ -1406,7 +1406,7 @@
         {
           "id": "44B",
           "texte": "Par une observation clinique des faiblesses humaines et une discrétion qui m'évite d'attirer l'attention.",
-          "effets": [
+          "effects": [
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 1 }
           ]
@@ -1416,11 +1416,11 @@
     {
       "id": "45",
       "question": "Quelle vérité guide le mieux vos pas lorsque tout semble incertain ?",
-      "reponses": [
+      "responses": [
         {
           "id": "45A",
           "texte": "Le monde est parcouru de signes invisibles et de mystères anciens qu'il faut oser déchiffrer au-delà des apparences.",
-          "effets": [
+          "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
             { "archetype_id": "8", "name": "L'Explorateur", "points": 1 }
           ]
@@ -1428,7 +1428,7 @@
         {
           "id": "45B",
           "texte": "Qu'on vienne des bas-fonds ou des sommets, seuls comptent l'instinct du moment et la fierté de ne jamais plier.",
-          "effets": [
+          "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
             { "archetype_id": "9", "name": "Lame de Sang-Bleu", "points": 1 }
           ]
