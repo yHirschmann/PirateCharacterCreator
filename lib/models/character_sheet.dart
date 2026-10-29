@@ -46,8 +46,8 @@ Spécialités:
 ${focus.entries.where((e)=> e.value > 1).map((e) => '- ${e.key}: ${e.value}').join('\n')}
 
 Talent:
-${selectedTalent.name} - 
-${selectedTalent.description}
+${selectedTalent.name}
+- ${selectedTalent.description}
 
 Inventaire:
 
