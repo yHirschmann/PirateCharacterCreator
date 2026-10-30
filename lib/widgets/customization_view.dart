@@ -53,22 +53,24 @@ class CustomizationView extends StatelessWidget {
             child: InkWell(
               splashColor: Colors.blue.withAlpha(30),
               onTap: () => onSelectTalent(talent),
-              child: Column(
-                children: [ Row(
-                  children: [
-                    Text(talent.name, style: Theme.of(context).textTheme.bodyLarge,),
-                    if (state.selectedTalent?.id == talent.id)
-                      const Icon(Icons.check, color: Colors.green),
-                  ],),
-                  Align(
-                    alignment: AlignmentGeometry.centerLeft,
-                    child: Text(talent.description),
-                  ),
-                ],
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [ Row(
+                    children: [
+                      Text(talent.name, style: Theme.of(context).textTheme.bodyLarge,),
+                      if (state.selectedTalent?.id == talent.id)
+                        const Icon(Icons.check, color: Colors.green),
+                    ],),
+                    Text(talent.description),
+                  ],
+                ),
               ),
             ),
           ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
           OutlinedButton(
             onPressed: state.remainingFocusPoint != 0 || state.selectedTalent == null ? null : onValidate, 

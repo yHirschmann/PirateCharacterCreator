@@ -13,20 +13,25 @@ class TieBreakerView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-        children: [
-          Text("Vos réponses vous permettent de choisir. Que souhaitez vous incarner ?"),
-          for(var archetype in state.tiedArchetypes)
-            Card(
-              child: Column(
-                children: [
-                  Text(archetype.name),
-                  Text(archetype.description),
-                  OutlinedButton(onPressed: () => resolveTie(archetype), child: null)
-                ],
-              ),
+      spacing: 12,
+      children: [
+        Text("Vos réponses vous permettent de choisir. Que souhaitez vous incarner ?"),
+        for(var archetype in state.tiedArchetypes)
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16), 
+              child: 
+                Column(
+                  children: [
+                    Text(archetype.name),
+                    Text(archetype.description),
+                    OutlinedButton(onPressed: () => resolveTie(archetype), child: Text('Incarner ${archetype.name}'))
+                  ],
+                ),
             ),
-          OutlinedButton(onPressed: () => startNewQuizz, child: null,),
-        ],
+          ),
+        OutlinedButton(onPressed: () => startNewQuizz, child: Text('Recommencer'),),
+      ],
     );
   }
 }

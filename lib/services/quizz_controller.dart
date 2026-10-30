@@ -91,8 +91,8 @@ class QuizzController extends ChangeNotifier {
       var allocatedFocusPoints = {...current.allocatedFocusPoints};
       var totalPoints = (allocatedFocusPoints[focusName] ?? 1) + delta;
 
-      if(totalPoints < 1){
-        throw StateError('La valeur de point de Spécialité ne peut pas être inférieur à 1');
+      if(totalPoints < 1 || totalPoints > 5){
+        throw StateError('Erreur, le nombre de point pour la spécialité $focusName est incorrecte');
       }
       else{
         allocatedFocusPoints[focusName] = totalPoints;
