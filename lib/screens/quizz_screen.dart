@@ -45,15 +45,22 @@ class _QuizzScreenState extends State<QuizzScreen> {
                   builder: (BuildContext context, Widget? child){ 
                     return switch(_quizzController.state){
                       QuizzLoading() => const CircularProgressIndicator(),
-                      QuizzQuestionning() && final state => QuestionView(state: state, onAnswerSelected: (response) => _quizzController.answerQuestion(response),),
-                      QuizzTieBreaker() && final state  => TieBreakerView(resolveTie: (archetype) => _quizzController.resolveTie(archetype),startNewQuizz: () => _quizzController.startNewQuizz(), state: state,),
-                      QuizzCustomization() && final state  => CustomizationView(
-                                                                onRestart: () => _quizzController.startNewQuizz(), 
-                                                                onSelectTalent: (talent) => _quizzController.selectTalent(talent), 
-                                                                onUpdateFocus: (focusName, delta) => _quizzController.updateFocusPoint(focusName, delta), 
-                                                                onValidate: () => _quizzController.validateCharacter(), 
+                      QuizzQuestionning() && final state => QuestionView(
+                                                                onAnswerSelected: _quizzController.answerQuestion,
                                                                 state: state,),
-                      QuizzSummary() && final state => SummaryView(onRestart: () => _quizzController.startNewQuizz(), state: state,),
+                      QuizzTieBreaker() && final state  => TieBreakerView(
+                                                                resolveTie: _quizzController.resolveTie,
+                                                                startNewQuizz: _quizzController.startNewQuizz,
+                                                                state: state,),
+                      QuizzCustomization() && final state  => CustomizationView(
+                                                                onRestart: _quizzController.startNewQuizz,
+                                                                onSelectTalent: _quizzController.selectTalent,
+                                                                onUpdateFocus: _quizzController.updateFocusPoint,
+                                                                onValidate: _quizzController.validateCharacter, 
+                                                                state: state,),
+                      QuizzSummary() && final state => SummaryView(
+                                                                onRestart: _quizzController.startNewQuizz,
+                                                                state: state,),
                     };
                   }
                 ),
