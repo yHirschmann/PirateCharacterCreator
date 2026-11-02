@@ -33,7 +33,7 @@
       {
         "id": "1",
         "Name": "Expert en Explosifs",
-        "Description": "Lors d'un test de Tinker Carefully pour manipuler, fabriquer ou modifier des explosifs, vous pouvez ignorer la première complication et obtenez une relance."
+        "Description": "Lors d'un test de Bricolage Prudent pour manipuler, fabriquer ou modifier des explosifs, vous pouvez ignorer la première complication et obtenez une relance."
       },
       {
         "id": "2",
@@ -43,7 +43,7 @@
       {
         "id": "3",
         "Name": "Négociation tendue",
-        "Description": "Si vous tentez de négocier et que vous avez des explosifs sur vous, vous pouvez ajouter 2 points de Chaos à la réserve. Vous obtenez 1 relance et pouvez utiliser votre compétence de Tinker à la place de Talk jusqu'à la fin de la négociation."
+        "Description": "Si vous tentez de négocier et que vous avez des explosifs sur vous, vous pouvez ajouter 2 points de Chaos à la réserve. Vous obtenez 1 relance et pouvez utiliser votre compétence de Bricolage à la place de Discussion jusqu'à la fin de la négociation."
       },
       {
         "id": "4",
@@ -85,23 +85,23 @@
       "Natation",
       "Naturalisme",
       "Pistage",
-      "Survive en pleine nature"
+      "Survie en pleine nature"
     ],
     "Talent": [
       {
         "id": "1",
-        "Name": "Expert en Survive",
-        "Description": "Lorsque vous cherchez de la nourriture, de l'eau ou un abri pour vous-même et un groupe d'alliés, vous pouvez effectuer un test de Survive de difficulté 1 pour trouver assez de ressources pour une journée et pour un Namebre de personnes égal à votre niveau en Survive. Vous pouvez augmenter le Namebre de personnes en dépensant de l'Impulsion : chaque point d'Impulsion dépensé augmente le Namebre de personnes de la moitié de votre niveau en Survive."
+        "Name": "Expert en Survie",
+        "Description": "Lorsque vous cherchez de la nourriture, de l'eau ou un abri pour vous-même et un groupe d'alliés, vous pouvez effectuer un test de Survie de difficulté 1 pour trouver assez de ressources pour une journée et pour un nombre de personnes égal à votre niveau en Survie. Vous pouvez augmenter le nombre de personnes en dépensant de l'Impulsion : chaque point d'Impulsion dépensé augmente le nombre de personnes de la moitié de votre niveau en Survie."
       },
       {
         "id": "2",
         "Name": "Pisteur hors pair",
-        "Description": "Vous pouvez utiliser votre compétence de Move à la place d'Study pour suivre la piste d'une cible en mouvement."
+        "Description": "Vous pouvez utiliser votre compétence de Déplacement à la place d'Analyse pour suivre la piste d'une cible en mouvement."
       },
       {
         "id": "3",
         "Name": "Maître de la jungle",
-        "Description": "Une fois par scène, vous pouvez relancer 1d20 pour un test de Survive en milieu naturel hostile."
+        "Description": "Une fois par scène, vous pouvez relancer 1d20 pour un test de Survie en milieu naturel hostile."
       },
       {
         "id": "4",
@@ -118,7 +118,7 @@
   {
     "id": "3",
     "Name": "Le Bretteur",
-    "Description": "Le Bretteur est un virtuose de la lame. Il Fight avec panache, lit les intentions de ses adversaires et transforme le moindre faux pas en ouverture.",
+    "Description": "Le Bretteur est un virtuose de la lame. Il combat avec panache, lit les intentions de ses adversaires et transforme le moindre faux pas en ouverture.",
     "Skill": {
       "Study": "",
       "Tinker": "",
@@ -154,17 +154,17 @@
       {
         "id": "2",
         "Name": "Cabriole",
-        "Description": "Lorsque vous faites un test de Move Audacieux pour effectuer des acrobaties, vous lancez 1d20 supplémentaire."
+        "Description": "Lorsque vous faites un test de Déplacement Audacieux pour effectuer des acrobaties, vous lancez 1d20 supplémentaire."
       },
       {
         "id": "3",
         "Name": "Provocation",
-        "Description": "Lors d'un test de Talk Audacieuse pour attirer l'attention d'une foule ou provoquer un adversaire, réduisez la difficulté de 1 (minimum 1)."
+        "Description": "Lors d'un test de Discussion Audacieuse pour attirer l'attention d'une foule ou provoquer un adversaire, réduisez la difficulté de 1 (minimum 1)."
       },
       {
         "id": "4",
-        "Name": "Lecture du Fight",
-        "Description": "Face à un adversaire unique, vous pouvez effectuer un test d'Study de difficulté 2. Si vous réussissez, vous comprenez son style de Fight et obtenez 1 relance pour vos actions contre lui jusqu'à la fin de la scène."
+        "Name": "Lecture du Combat",
+        "Description": "Face à un adversaire unique, vous pouvez effectuer un test d'Analyse de difficulté 2. Si vous réussissez, vous comprenez son style de combat et obtenez 1 relance pour vos actions contre lui jusqu'à la fin de la scène."
       },
       {
         "id": "5",
@@ -201,13 +201,13 @@
       "Occultisme",
       "Pistage",
       "Résilience",
-      "Survive en pleine nature"
+      "Survie en pleine nature"
     ],
     "Talent": [
       {
         "id": "1",
         "Name": "Viser le point faible",
-        "Description": "Lors d'un affrontement avec un monstre, vous pouvez faire un test d'Study Swiftly de difficulté 1. En cas de réussite, vous identifiez un point faible du monstre, toutes les attaques visant ce point infligent 2 dégâts supplémentaires et voient leur difficulté augmentée de 1."
+        "Description": "Lors d'un affrontement avec un monstre, vous pouvez faire un test d'Analyse Vif de difficulté 1. En cas de réussite, vous identifiez un point faible du monstre, toutes les attaques visant ce point infligent 2 dégâts supplémentaires et voient leur difficulté augmentée de 1."
       },
       {
         "id": "2",
@@ -217,7 +217,7 @@
       {
         "id": "3",
         "Name": "Butin de Chasse",
-        "Description": "Après avoir vaincu des adversaires, vous pouvez faire un test d'Study Carefullye de difficulté 0. Pour chaque réussite, vous trouvez un butin sur leurs cadavres."
+        "Description": "Après avoir vaincu des adversaires, vous pouvez faire un test d'Analyse Prudente de difficulté 0. Pour chaque réussite, vous trouvez un butin sur leurs cadavres."
       },
       {
         "id": "4",
@@ -227,7 +227,7 @@
       {
         "id": "5",
         "Name": "Traqueur Obstiné",
-        "Description": "Lorsque vous effectuez un test d'Study pour suivre une cible avec des intempéries, réduisez la difficulté de 1 (minimum 1)."
+        "Description": "Lorsque vous effectuez un test d'Analyse pour suivre une cible avec des intempéries, réduisez la difficulté de 1 (minimum 1)."
       }
     ]
   },
@@ -270,17 +270,17 @@
       {
         "id": "2",
         "Name": "Ralliement",
-        "Description": "Une fois par scène, vous pouvez effectuer un test de Talk Forcefully de difficulté 1. En cas de réussite, vous pouvez retirer 1 point de Stress à tous les alliés présents."
+        "Description": "Une fois par scène, vous pouvez effectuer un test de Discussion Brutale de difficulté 1. En cas de réussite, vous pouvez retirer 1 point de Stress à tous les alliés présents."
       },
       {
         "id": "3",
         "Name": "Chef de ses Hommes",
-        "Description": "Une fois par Fight, lorsqu'un allié doit subir des dégâts, vous pouvez dépenser 1 point d'Impulsion pour prendre les dégâts à sa place."
+        "Description": "Une fois par combat, lorsqu'un allié doit subir des dégâts, vous pouvez dépenser 1 point d'Impulsion pour prendre les dégâts à sa place."
       },
       {
         "id": "4",
         "Name": "Maître Tacticien",
-        "Description": "Une fois par Fight, vous pouvez effectuer un test d'Study. En cas de réussite, vous pouvez dépenser 2 points d'Impulsion pour créer une vérité avantageuse pour vous et vos alliés. Tous les autres personnages tirant parti de cette vérité obtiennent 1 relance pour leurs actions."
+        "Description": "Une fois par combat, vous pouvez effectuer un test d'Analyse. En cas de réussite, vous pouvez dépenser 2 points d'Impulsion pour créer une vérité avantageuse pour vous et vos alliés. Tous les autres personnages tirant parti de cette vérité obtiennent 1 relance pour leurs actions."
       },
       {
         "id": "5",
@@ -316,14 +316,14 @@
       "Furtivité",
       "Larcin",
       "Négociation",
-      "Survive Urbaine",
+      "Survie Urbaine",
       "Tromperie"
     ],
     "Talent": [
       {
         "id": "1",
         "Name": "Double Fond",
-        "Description": "Lorsque vous effectuez un test d'Study ou de Tinker pour dissimuler un objet ou une cargaison, vous pouvez relancer 1d20."
+        "Description": "Lorsque vous effectuez un test d'Analyse ou de Bricolage pour dissimuler un objet ou une cargaison, vous pouvez relancer 1d20."
       },
       {
         "id": "2",
@@ -333,7 +333,7 @@
       {
         "id": "3",
         "Name": "Rumeur de Comptoir",
-        "Description": "Vous pouvez utiliser votre compétence de Talk à la place d'Study pour obtenir des informations lorsque vous êtes dans un lieu mal fréquenté."
+        "Description": "Vous pouvez utiliser votre compétence de Discussion à la place d'Analyse pour obtenir des informations lorsque vous êtes dans un lieu mal fréquenté."
       },
       {
         "id": "4",
@@ -374,7 +374,7 @@
       "Furtivité",
       "Natation",
       "Pistage",
-      "Survive en pleine nature",
+      "Survie en pleine nature",
       "Voltige"
     ],
     "Talent": [
@@ -386,17 +386,17 @@
       {
         "id": "2",
         "Name": "Comme une Ombre",
-        "Description": "Une fois par scène, si vous effectuez un Move Quietly, vous obtenez 1 relance et pouvez ignorer la première complication."
+        "Description": "Une fois par scène, si vous effectuez un Déplacement Discret, vous obtenez 1 relance et pouvez ignorer la première complication."
       },
       {
         "id": "3",
         "Name": "Chut !",
-        "Description": "Lorsque vous tentez de neutraliser un garde avec Discrétion, vous pouvez utiliser votre compétence de Move à la place de Fight."
+        "Description": "Lorsque vous tentez de neutraliser un garde avec Discrétion, vous pouvez utiliser votre compétence de Déplacement à la place de Combat."
       },
       {
         "id": "4",
         "Name": "Œil de Faucon",
-        "Description": "Lorsque vous effectuez un test d'Study pour tenter de repérer une menace ou un danger, vous obtenez 1 relance."
+        "Description": "Lorsque vous effectuez un test d'Analyse pour tenter de repérer une menace ou un danger, vous obtenez 1 relance."
       },
       {
         "id": "5",
@@ -433,33 +433,33 @@
       "Histoire",
       "Natation",
       "Navires",
-      "Survive en pleine nature"
+      "Survie en pleine nature"
     ],
     "Talent": [
       {
         "id": "1",
-        "Name": "Réflexe de Survive",
-        "Description": "Au premier tour d'un Fight où vous êtes pris par surprise, vous pouvez faire une action de mouvement gratuite avant tout le monde pour vous mettre à couvert ou vous éloigner de la menace."
+        "Name": "Réflexe de Survie",
+        "Description": "Au premier tour d'un combat où vous êtes pris par surprise, vous pouvez faire une action de mouvement gratuite avant tout le monde pour vous mettre à couvert ou vous éloigner de la menace."
       },
       {
         "id": "2",
-        "Name": "Kit de Survive",
-        "Description": "Vous pouvez utiliser votre compétence de Survive à la place de Tinker pour réparer, improviser ou fabriquer des équipements essentiels en milieu hostile."
+        "Name": "Kit de Survie",
+        "Description": "Vous pouvez utiliser votre compétence de Survie à la place de Bricolage pour réparer, improviser ou fabriquer des équipements essentiels en milieu hostile."
       },
       {
         "id": "3",
         "Name": "Cartographe Expert",
-        "Description": "Lorsque vous faites un test d'Study pour déchiffrer une carte, lire les étoiles ou vous orienter en pleine nature, vous obtenez 1 relance."
+        "Description": "Lorsque vous faites un test d'Analyse pour déchiffrer une carte, lire les étoiles ou vous orienter en pleine nature, vous obtenez 1 relance."
       },
       {
         "id": "4",
         "Name": "Fouille Méticuleuse",
-        "Description": "Une fois par scène, vous pouvez dépenser 1 point d'Impulsion et effectuer un test d'Study Carefullye de difficulté 0. Pour chaque réussite, vous obtenez 1 objet de valeur."
+        "Description": "Une fois par scène, vous pouvez dépenser 1 point d'Impulsion et effectuer un test d'Analyse Prudente de difficulté 0. Pour chaque réussite, vous obtenez 1 objet de valeur."
       },
       {
         "id": "5",
         "Name": "Savoirs Anciens",
-        "Description": "Lorsque vous faites un test d'Study Astucieuse pour déchiffrer et comprendre des inscriptions dans une langue inconnue, réduisez la difficulté de 1 (minimum 1)."
+        "Description": "Lorsque vous faites un test d'Analyse Astucieuse pour déchiffrer et comprendre des inscriptions dans une langue inconnue, réduisez la difficulté de 1 (minimum 1)."
       }
     ]
   },
@@ -497,7 +497,7 @@
       {
         "id": "1",
         "Name": "Touché !",
-        "Description": "Une fois par Fight, lorsque vous réussissez une attaque et que vous générez 1 point d'Impulsion, vous en obtenez 1 supplémentaire."
+        "Description": "Une fois par combat, lorsque vous réussissez une attaque et que vous générez 1 point d'Impulsion, vous en obtenez 1 supplémentaire."
       },
       {
         "id": "2",
@@ -507,17 +507,17 @@
       {
         "id": "3",
         "Name": "Éducation Noble",
-        "Description": "Votre éducation passée vous a permis d'obtenir des connaissances sur de Namebreux sujets. Vous pouvez faire un test d'Study Astucieuse pour tenter de vous remémorer ce que vous avez appris. En cas de réussite, vous pouvez vous rappeler 2 informations en posant la question au Maître du Jeu."
+        "Description": "Votre éducation passée vous a permis d'obtenir des connaissances sur de Namebreux sujets. Vous pouvez faire un test d'Analyse Astucieuse pour tenter de vous remémorer ce que vous avez appris. En cas de réussite, vous pouvez vous rappeler 2 informations en posant la question au Maître du Jeu."
       },
       {
         "id": "4",
         "Name": "Entre Gentilshommes",
-        "Description": "Lorsque vous effectuez un test de Talk avec une personne de haut rang, vous pouvez dépenser 1 point d'Impulsion pour obtenir 1 relance sur tous vos jets jusqu'à la fin de la Talk."
+        "Description": "Lorsque vous effectuez un test de Discussion avec une personne de haut rang, vous pouvez dépenser 1 point d'Impulsion pour obtenir 1 relance sur tous vos jets jusqu'à la fin de la conversation."
       },
       {
         "id": "5",
         "Name": "Éducation aux Duels",
-        "Description": "Vous pouvez utiliser votre compétence d'Study à la place de Fight quand vous affrontez un adversaire en un contre un."
+        "Description": "Vous pouvez utiliser votre compétence d'Analyse à la place de Combat quand vous affrontez un adversaire en un contre un."
       }
     ]
   },
@@ -555,22 +555,22 @@
       {
         "id": "1",
         "Name": "Bistouri de Précision",
-        "Description": "Lorsque vous attaquez au corps à corps, vous pouvez utiliser votre compétence d'Study à la place de Fight pour viser les points vitaux de votre adversaire. Augmentez la difficulté des tests de 2, si vous touchez, vous éliminez la cible. La difficulté face à un adversaire héroïque ou un monstre est augmentée de 4."
+        "Description": "Lorsque vous attaquez au corps à corps, vous pouvez utiliser votre compétence d'Analyse à la place de Combat pour viser les points vitaux de votre adversaire. Augmentez la difficulté des tests de 2, si vous touchez, vous éliminez la cible. La difficulté face à un adversaire héroïque ou un monstre est augmentée de 4."
       },
       {
         "id": "2",
         "Name": "Concoction",
-        "Description": "Vous pouvez effectuer un test d'Study Carefullye de difficulté 2 pour identifier les plantes, insectes ou animaux pouvant vous servir à fabriquer des remèdes ou poisons."
+        "Description": "Vous pouvez effectuer un test d'Analyse Prudente de difficulté 2 pour identifier les plantes, insectes ou animaux pouvant vous servir à fabriquer des remèdes ou poisons."
       },
       {
         "id": "3",
         "Name": "Chirurgie d'urgence",
-        "Description": "Une fois par Fight, vous pouvez dépenser 1 point d'Impulsion pour retirer 1d4 Stress d'un allié."
+        "Description": "Une fois par Combat, vous pouvez dépenser 1 point d'Impulsion pour retirer 1d4 Stress d'un allié."
       },
       {
         "id": "4",
         "Name": "Diagnostic Éclair",
-        "Description": "Lorsque vous essayez de déterminer la cause d'un empoisonnement, d'une maladie ou du décès d'une personne avec un test d'Study Swiftly, vous obtenez 1 relance."
+        "Description": "Lorsque vous essayez de déterminer la cause d'un empoisonnement, d'une maladie ou du décès d'une personne avec un test d'Analyse Vive, vous obtenez 1 relance."
       },
       {
         "id": "5",
@@ -606,7 +606,7 @@
       "Intimidation",
       "Occultisme",
       "Persuasion",
-      "Survive en pleine nature",
+      "Survie en pleine nature",
       "Théologie"
     ],
     "Talent": [
@@ -654,14 +654,14 @@
       "Intimidation",
       "Larcin",
       "Négociation",
-      "Survive Urbaine",
+      "Survie Urbaine",
       "Voltige"
     ],
     "Talent": [
       {
         "id": "1",
         "Name": "Doigts de fée",
-        "Description": "Lorsque vous faites un test de Tinker pour crocheter ou modifier un mécanisme, réduisez la difficulté de 1 (minimum 1)."
+        "Description": "Lorsque vous faites un test de Bricolage pour crocheter ou modifier un mécanisme, réduisez la difficulté de 1 (minimum 1)."
       },
       {
         "id": "2",
@@ -671,17 +671,17 @@
       {
         "id": "3",
         "Name": "Langage de la Rue",
-        "Description": "Lorsque vous faites une Talk Forcefully pour intimider quelqu'un, réduisez la difficulté de 1 (minimum 1)."
+        "Description": "Lorsque vous faites une Discussion Brutale pour intimider quelqu'un, réduisez la difficulté de 1 (minimum 1)."
       },
       {
         "id": "4",
         "Name": "Croc-en-jambe",
-        "Description": "Lorsque vous effectuez une attaque au corps à corps, vous pouvez utiliser votre compétence de Move à la place de Fight, réduisez les dégâts infligés de 1 point."
+        "Description": "Lorsque vous effectuez une attaque au corps à corps, vous pouvez utiliser votre compétence de Déplacement à la place de Combat, réduisez les dégâts infligés de 1 point."
       },
       {
         "id": "5",
         "Name": "Enfant des Rues",
-        "Description": "Lorsque vous faites un test de Talk pour marchander, mendier ou tenter d'obtenir des informations auprès des classes populaires, obtenez 1 relance."
+        "Description": "Lorsque vous faites un test de Discussion pour marchander, mendier ou tenter d'obtenir des informations auprès des classes populaires, obtenez 1 relance."
       }
     ]
   }

@@ -4,7 +4,7 @@
     "style": "Psychologique / Intemporel",
     "total_questions": 45,
     "total_responses": 144,
-    "recommended_questions_per_session": 8,
+    "recommended_questions_per_session": 6,
     "tie_handling": "player_choice",
     "equilibrage_par_archetype": {
       "three_point_occurrences": 12,
@@ -230,7 +230,7 @@
       "responses": [
         {
           "id": "6A",
-          "texte": "Je répartis les tâches de chacun pour entretenir le feu, éconameiser les vivres et maintenir le moral du groupe.",
+          "texte": "Je répartis les tâches de chacun pour entretenir le feu, économiser les vivres et maintenir le moral du groupe.",
           "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 3 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
@@ -466,7 +466,7 @@
     },
     {
       "id": "13",
-      "question": "Vous êtes témoin d'un phénameène inexplicable qui glace le sang de votre entourage. Quelle est votre réaction ?",
+      "question": "Vous êtes témoin d'un phénomène inexplicable qui glace le sang de votre entourage. Quelle est votre réaction ?",
       "responses": [
         {
           "id": "13A",
@@ -584,7 +584,7 @@
       "responses": [
         {
           "id": "17A",
-          "texte": "Je ralentis à peine l'allure en adaptant ma foulée aux reliefs du sol que je devine malgré la pénamebre.",
+          "texte": "Je ralentis à peine l'allure en adaptant ma foulée aux reliefs du sol que je devine malgré la pénombre.",
           "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 3 },
             { "archetype_id": "3", "name": "Le Bretteur", "points": 2 },
@@ -854,7 +854,7 @@
         },
         {
           "id": "23C",
-          "texte": "Les points de rupture de l'architecture qui risqueraient de faire s'écrouler les murs en cas de problèmes.",
+          "texte": "Les points de rupture de l'architecture qui risqueraient de faire s'écrouler les murs en cas de problème.",
           "effects": [
             { "archetype_id": "1", "name": "L'Artilleur", "points": 3 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
@@ -938,7 +938,7 @@
         },
         {
           "id": "25C",
-          "texte": "Je le provoque en lui proposant un pari qui lui permetrait d'accepter mon soutien sans perdre la face.",
+          "texte": "Je le provoque en lui proposant un pari qui lui permettrait d'accepter mon soutien sans perdre la face.",
           "effects": [
             { "archetype_id": "3", "name": "Le Bretteur", "points": 3 },
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 2 },
@@ -1013,7 +1013,7 @@
         },
         {
           "id": "27B",
-          "texte": "J'éconameise mes forces dans un silence absolu et j'attends l'instant précis où le geôlier baisse sa garde.",
+          "texte": "J'économise mes forces dans un silence absolu et j'attends l'instant précis où le geôlier baisse sa garde.",
           "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 3 },
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 2 },
@@ -1097,7 +1097,7 @@
         },
         {
           "id": "29C",
-          "texte": "En restant sur le qui-vive dans un coin animé: l'habitude des coups durs m'a appris à récupérer en restant vigilant.",
+          "texte": "En restant sur le qui-vive dans un coin animé : l'habitude des coups durs m'a appris à récupérer en restant vigilant.",
           "effects": [
             { "archetype_id": "4", "name": "Le Chasseur de Monstres", "points": 3 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
@@ -1178,7 +1178,7 @@
       "responses": [
         {
           "id": "32A",
-          "texte": "Je prends la parole au name de tous avec une conviction si fervente que la règle perd immédiatement sa légitimité.",
+          "texte": "Je prends la parole au nom de tous avec une conviction si fervente que la règle perd immédiatement sa légitimité.",
           "effects": [
             { "archetype_id": "5", "name": "Le Commandant", "points": 3 },
             { "archetype_id": "11", "name": "Le Mystique", "points": 2 },
@@ -1211,7 +1211,7 @@
       "responses": [
         {
           "id": "33A",
-          "texte": "Je le glisse dans ma poche d'un geste naturel: ce que les imprudents égarent appartient à ceux qui ouvrent l'œil.",
+          "texte": "Je le glisse dans ma poche d'un geste naturel : ce que les imprudents égarent appartient à ceux qui ouvrent l'œil.",
           "effects": [
             { "archetype_id": "6", "name": "Le Contrebandier", "points": 3 },
             { "archetype_id": "12", "name": "Rat de Quais", "points": 2 },
@@ -1376,7 +1376,7 @@
       "responses": [
         {
           "id": "38A",
-          "texte": "J'invoque des forces qui nous dépassent et j'impose ma vision avec une autorité qui ne souffre d'aucune réplique.",
+          "texte": "J'invoque des forces qui nous dépassent et j'impose ma vision avec une autorité qui ne souffre aucune réplique.",
           "effects": [
             { "archetype_id": "11", "name": "Le Mystique", "points": 3 },
             { "archetype_id": "5", "name": "Le Commandant", "points": 2 },
@@ -1385,7 +1385,7 @@
         },
         {
           "id": "38B",
-          "texte": "Je parle avec leurs mots en leur montrant le passage que j'ai déjà repérée pour eux.",
+          "texte": "Je parle avec leurs mots en leur montrant le passage que j'ai déjà repéré pour eux.",
           "effects": [
             { "archetype_id": "12", "name": "Rat de Quais", "points": 3 },
             { "archetype_id": "7", "name": "L'Éclaireur", "points": 2 },
@@ -1427,7 +1427,7 @@
         },
         {
           "id": "39C",
-          "texte": "Je prélève dans les ressources dans l'environnement naturel pour fabriquer une solution simple mais infaillible.",
+          "texte": "Je prélève des ressources dans l'environnement naturel pour fabriquer une solution simple mais infaillible.",
           "effects": [
             { "archetype_id": "2", "name": "Le Boucanier", "points": 3 },
             { "archetype_id": "10", "name": "Médecin de Bord", "points": 2 },
