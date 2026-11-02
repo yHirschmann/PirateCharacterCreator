@@ -135,7 +135,7 @@ class _TieBreakerViewState extends State<TieBreakerView> {
                                     width: double.infinity,
                                     child: OutlinedButton(
                                       onPressed: () => widget.resolveTie(archetype),
-                                      child: Text('Incarner ${archetype.name}'),
+                                      child: Text('Incarner un ${archetype.name}', textAlign: TextAlign.center,),
                                     ),
                                   ),
                                 ],

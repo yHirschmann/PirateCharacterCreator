@@ -15,7 +15,7 @@ class QuestionView extends StatelessWidget {
         spacing: 10,
         children: [
           Text('Question n°${state.questionNumber}'),
-          Text(state.currentQuestion.question, style: Theme.of(context).textTheme.headlineLarge,),
+          Text(state.currentQuestion.question, style: Theme.of(context).textTheme.headlineLarge, textAlign: TextAlign.justify,),
           for(var response in state.currentQuestion.responses)
             SizedBox(
               width: double.infinity,
