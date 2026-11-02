@@ -10,7 +10,7 @@ import 'package:personality_quizz/models/talent.dart';
 import 'package:personality_quizz/services/repository/data_repository.dart';
 
 class QuizzController extends ChangeNotifier {
-  static const int victoryThreshold = 12;
+  static const int victoryThreshold = 10;
 
   int _numberQuestion = 1;
 
