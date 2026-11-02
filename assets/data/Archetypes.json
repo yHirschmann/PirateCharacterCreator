@@ -624,11 +624,6 @@
         "id": "3",
         "Name": "Magie des Grands Anciens",
         "Description": "Le Mystique est connecté à une créature antédiluvienne, dont lui seul et une poignée de personnes connaissent le Name. À chaque fois qu'il fait usage de sa magie, il augmente le Chaos du monde, de manière plus ou moins importante en fonction de ce qu'il souhaite lancer. S'il choisit ce talent, il ne peut pas choisir le talent Magie de l'Or ou Magie Voodoo."
-      },
-      {
-        "id": "4",
-        "Name": "Osselets",
-        "Description": "Ce talent doit être pris en plus d'un type de magie à la création de personnage. Ce talent peut être choisi jusqu'à 4 fois supplémentaires. Chaque fois que ce talent est sélectionné, le Mystique ajoute un nouvel osselet à son inventaire. Si le Mystique a déjà 5 osselets, il peut en supprimer un pour sélectionner ce talent à nouveau."
       }
     ]
   },

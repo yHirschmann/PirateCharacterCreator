@@ -53,6 +53,21 @@ Inventaire:
 
 Histoire du personnage:
 //A vous de me raconter l'histoire de votre personnage (courte ou longue).
+
+Informations connus du personnage:
+- Vous êtes un pirate engagé depuis peu de temps sur le bateau de Maggie la Rouge.
+- Vous connaissez bien un membre de son équipage, pour de bonne ou de mauvaises raisons.
+- Vous vous situez dans une partie du globe semblable aux Caraïbes.
+- Il existe une drogue très convoité qui s'appelle "Corail".  Sur une prise prolongée, elle transforme le corp en corail
+- Vous connaissez des rumeurs sur l'existence de créatures terrestre et marine qui dépassent la raison.
+- Dans de rares occasion, il est possible de rencontrer des personnes appartenant à des races non humaines (ex: petites personnes ayant la peau verte et de longues oreilles, hommes-poisson, etc.)
+- Vous connaissez la légende des Cinq Calamités. Un équipage sans capitane, qui aurait vendu leurs âme à une déité chtonienne en échange d'une éternité de pillage. Ils vogueraient sur le dos d'un Vaisseau-Baleine volant et faire leurs rencontre serait signe de désastre et de mort.
+- Il existe un code des pirate qui définit une ligne de conduite pour tous ceux l'ayant ratifié.
+- Code des Pirates:
+  ○ Pas de vol entre les membres d'un même équipage
+  ○ Droit de vote pour chaque membre pour prendre une décision importante.
+  ○ Le partage du butin entre les membres de l'équipage
+  ○ La possibilité d'invoquer le pourparlers pour discuter plutôt que de se battre.
 ''';
   }
 }

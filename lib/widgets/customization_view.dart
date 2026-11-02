@@ -17,14 +17,16 @@ class CustomizationView extends StatelessWidget {
     return Column(
       spacing: 12,
       children: [
-        Text(state.finalArchetype.name, style: Theme.of(context).textTheme.displayMedium),
+        Text(state.finalArchetype.name, style: Theme.of(context).textTheme.displaySmall),
         Text(state.finalArchetype.description, style: Theme.of(context).textTheme.bodyLarge,),
         Image.asset(
-          'assets/images/${state.finalArchetype.id}.png', 
+          'assets/images/${state.finalArchetype.id}.jpg', 
           errorBuilder: (context, error, stackTrace) {
-            return Text('fail to load: ${state.finalArchetype.name}.png');
+            return Text('fail to load: ${state.finalArchetype.name}.jpg');
           },
+          height: 500,
         ),
+        Text("Choisissez vos niveaux de Spécialités", style: Theme.of(context).textTheme.headlineSmall),
         Text("Points de spécialités restants : ${state.remainingFocusPoint}"),
         for(var focus in state.allocatedFocusPoints.entries)
           Row(
@@ -47,6 +49,7 @@ class CustomizationView extends StatelessWidget {
               )
             ],
           ),
+        Text("Choisissez 1 Talents", style: Theme.of(context).textTheme.headlineSmall),
         for(var talent in state.finalArchetype.talents)
           Card(
             clipBehavior: .hardEdge,

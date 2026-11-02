@@ -7,6 +7,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Création de Personnage', // Titre de l'onglet du navigateur Web
+      // debugShowCheckedModeBanner: false, 
+      theme: ThemeData(
+        useMaterial3: true,
+        primarySwatch: Colors.blue,
+      ),
       home: const QuizzScreen(),
     );
   }
